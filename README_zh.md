@@ -1,4 +1,4 @@
-# Heygem 本地数字人视频生成工具 [【英文】](./README.md)
+# Heygem - Heygen的开源平替产品 [【英文】](./README.md)
 
 ![image-20250304114114272](README_zh.assets/image-20250304114114272.png)
 

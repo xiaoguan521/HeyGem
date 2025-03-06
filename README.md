@@ -1,4 +1,4 @@
-# Heygem - Local Digital Avatar Video Generation Tool [【中文】](./README_zh.md)
+# Heygem - An open source, affordable alternative to Heygen [【中文】](./README_zh.md)
 
 ![image-20250304114114272](README_zh.assets/image-20250304114114272.png)
 
