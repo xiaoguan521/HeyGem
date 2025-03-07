@@ -51,6 +51,7 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 ### Installing Windows Docker
 
 1. Use the command `wsl --list --verbose` to check if WSL is installed. The image below shows it's already installed, no need to reinstall.
+
    ![wsl-list](README_zh.assets/wsl-list.png)
 
    > - WSL installation command: `wsl --install`
@@ -58,19 +59,25 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
    > - Need to set and remember a new username and password during installation
 
 2. Update WSL using `wsl --update`
+
    ![updatewsl](README_zh.assets/updatewsl.png)
 
 3. [Download Docker for Windows](https://www.docker.com/), choose the appropriate installation package for your CPU architecture.
 
 4. This interface indicates successful installation:
+
    ![61eb4c19-3e7a-4791-a266-de4209690cbd](README_zh.assets/61eb4c19-3e7a-4791-a266-de4209690cbd.png)
 
 5. Run Docker
+
    ![shortcut](README_zh.assets/shortcut.png)
 
 6. Accept the agreement and skip login on first run
+
    ![accept](README_zh.assets/accept.png)
+
    ![576746d5-5215-4973-b1ca-c8d7409a6403](README_zh.assets/576746d5-5215-4973-b1ca-c8d7409a6403.png)
+
    ![9a10b7b2-1eea-48c1-b7af-34129fe04446](README_zh.assets/9a10b7b2-1eea-48c1-b7af-34129fe04446.png)
 
 ### Installing the Server
@@ -83,6 +90,7 @@ Install using Docker, docker-compose as follows:
 
 3. Wait patiently (about half an hour, depending on internet speed), download will consume about 70GB of traffic, make sure to use WiFi
 4. When you see three services in Docker, it indicates success
+
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
 ### Client
