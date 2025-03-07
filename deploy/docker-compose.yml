@@ -39,7 +39,7 @@ services:
     networks:
       - ai_network
   heygem-asr:
-    image: guiji2025/fun-asr:1.0.1
+    image: guiji2025/fun-asr:1.0.2
     container_name: heygem-asr
     restart: always
     runtime: nvidia
