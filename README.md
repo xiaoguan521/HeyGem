@@ -24,10 +24,9 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 
 1. Nodejs 18
 2. Docker Images
-
-- docker pull guiji2025/fun-asr:1.0.1
-- docker pull guiji2025/fish-speech-ziming:1.0.39
-- docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
+    - docker pull guiji2025/fun-asr:1.0.1
+    - docker pull guiji2025/fish-speech-ziming:1.0.39
+    - docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
 
 ## Installation
 
@@ -47,19 +46,19 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
    - Graphics Card: RTX-4070
 5. Ensure you have an NVIDIA graphics card with properly installed drivers
    > NVIDIA driver download link: https://www.nvidia.cn/drivers/lookup/
-   > ![output (1)](README_zh.assets/output (1).png)
+   > ![nvidia](README_zh.assets/nvidia.png)
 
 ### Installing Windows Docker
 
 1. Use the command `wsl --list --verbose` to check if WSL is installed. The image below shows it's already installed, no need to reinstall.
-   ![output (2)](README_zh.assets/output (2).png)
+   ![wsl-list](README_zh.assets/wsl-list.png)
 
    > - WSL installation command: `wsl --install`
    > - May fail due to network issues, try multiple times
    > - Need to set and remember a new username and password during installation
 
 2. Update WSL using `wsl --update`
-   ![output (3)](README_zh.assets/output (3).png)
+   ![updatewsl](README_zh.assets/updatewsl.png)
 
 3. [Download Docker for Windows](https://www.docker.com/), choose the appropriate installation package for your CPU architecture.
 
@@ -67,10 +66,10 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
    ![61eb4c19-3e7a-4791-a266-de4209690cbd](README_zh.assets/61eb4c19-3e7a-4791-a266-de4209690cbd.png)
 
 5. Run Docker
-   ![output (5)](README_zh.assets/output (5).png)
+   ![shortcut](README_zh.assets/shortcut.png)
 
 6. Accept the agreement and skip login on first run
-   ![output (6)](README_zh.assets/output (6).png)
+   ![accept](README_zh.assets/accept.png)
    ![576746d5-5215-4973-b1ca-c8d7409a6403](README_zh.assets/576746d5-5215-4973-b1ca-c8d7409a6403.png)
    ![9a10b7b2-1eea-48c1-b7af-34129fe04446](README_zh.assets/9a10b7b2-1eea-48c1-b7af-34129fe04446.png)
 
@@ -78,76 +77,9 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 
 Install using Docker, docker-compose as follows:
 
-```yaml
-networks:
-  ai_network:
-    driver: bridge
+1. The `docker-compose.yml` file is in the `/deploy` directory.
 
-services:
-  heygem-tts:
-    image: guiji2025/fish-speech-ziming:1.0.39
-    container_name: heygem-tts
-    restart: always
-    runtime: nvidia
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=0
-      - NVIDIA_DRIVER_CAPABILITIES=compute,graphics,utility,video,display
-    ports:
-      - '18180:8080'
-    volumes:
-      - d:/heygem_data/voice/data:/code/data
-      - d:/heygem_data/voice/config.py:/code/config.py
-    command: /bin/bash -c "/opt/conda/envs/python310/bin/python3 -m tools.api --listen 0.0.0.0:8080"
-    networks:
-      - ai_network
-  heygem-f2f:
-    image: guiji2025/heygem.ai:0.0.7_sdk_slim
-    container_name: heygem-f2f
-    restart: always
-    privileged: true
-    volumes:
-      - d:/heygem_data/face2face:/code/data
-      - d:/heygem_data/face2face/sdk/config.ini:/code/config/config.ini
-      - d:/heygem_data/face2face/sdk/license.txt:/code/license.txt
-    environment:
-      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: [gpu]
-    shm_size: '8g'
-    ports:
-      - '8383:8383'
-    command: python /code/app_local.py
-    networks:
-      - ai_network
-  heygem-asr:
-    image: guiji2025/fun-asr:1.0.1
-    container_name: heygem-asr
-    restart: always
-    runtime: nvidia
-    privileged: true
-    working_dir: /workspace/FunASR/runtime
-    ports:
-      - '10095:10095'
-    volumes:
-      - D:/heygem_data/asr/runtime-resources/models:/workspace/models
-    command: sh /run.sh
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
-    networks:
-      - ai_network
-```
-
-1. Create a new `docker-compose.yml` file locally and paste the above content.
-
-2. Execute `docker-compose up -d` in the directory containing `docker-compose.yml`
+2. Execute `docker-compose up -d` in the `/deploy` directory
 
 3. Wait patiently (about half an hour, depending on internet speed), download will consume about 70GB of traffic, make sure to use WiFi
 4. When you see three services in Docker, it indicates success

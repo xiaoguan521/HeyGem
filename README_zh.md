@@ -17,139 +17,72 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
   - 多模型支持：支持导入多个模型，并通过一键启动包进行管理，方便用户根据不同的创作需求和应用场景选择合适的模型。
 - 技术支持
   - 声音克隆技术：利用人工智能等先进技术，根据给定的声音样本生成与之相似或相同声音的技术，涵盖语音中的语境、语调、语速等。
-  - 自动语音识别：一种能将人类语音中的词汇内容转换为计算机可读输入，也就是转换为文本格式的技术，让计算机能够 “听懂” 人们说的话，主要。
+  - 自动语音识别：一种能将人类语音中的词汇内容转换为计算机可读输入，也就是转换为文本格式的技术，让计算机能够 “听懂” 人们说的话。
   - 计算机视觉技术：用于视频合成中的视觉处理，包括面部识别、口型分析等，确保虚拟形象的口型与声音和文字内容相匹配。
 
 ## 依赖
 
 1. Nodejs 18
 2. Docker Image
-
-- docker pull guiji2025/fun-asr:1.0.1
-- docker pull guiji2025/fish-speech-ziming:1.0.39
-- docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
+    - docker pull guiji2025/fun-asr:1.0.1
+    - docker pull guiji2025/fish-speech-ziming:1.0.39
+    - docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
 
 ## 如何安装
 
 ### 前置条件
 
 1. 必须有 D 盘：主要用于后续数字人、作品等数据存储
-   - 空闲空间要求：大于30G
+    - 空闲空间要求：大于30G
 2. C 盘：用于存储服务镜像文件
-   - 空闲空间要求：大于 100G
-   - 如果不足 100G，可以在安装完成docker后，在下图的位置重新选一个剩余空间大于 100G 的磁盘文件夹。
-     ![output](README_zh.assets/output.png)
+    - 空闲空间要求：大于 100G
+    - 如果不足 100G，可以在安装完成docker后，在下图的位置重新选一个剩余空间大于 100G 的磁盘文件夹。
+      ![output](README_zh.assets/output.png)
 3. 系统要求：
-   - 目前支持 Windows 10 19042.1526 或更高版本
+    - 目前支持 Windows 10 19042.1526 或更高版本
 4. 推荐配置：
-   - CPU：第13代英特尔酷睿 i5-13400F
-   - 内存：32G
-   - 显卡：rtx-4070
+    - CPU：第13代英特尔酷睿 i5-13400F
+    - 内存：32G
+    - 显卡：rtx-4070
 5. 确保有英伟达显卡，并正确安装显卡驱动
-   > 英伟达驱动下载地址 https://www.nvidia.cn/drivers/lookup/ > ![output (1)](README_zh.assets/output (1).png)
+    > 英伟达驱动下载地址 https://www.nvidia.cn/drivers/lookup/
+    > ![nvidia](README_zh.assets/nvidia.png)
 
 ### 安装 Windows Docker
 
-1. 用wsl --list --verbose命令可以查看本机有没有安装过wsl，如下图就是已经安装过，无需再安装![output (2)](README_zh.assets/output (2).png)
+1. 用wsl --list --verbose命令可以查看本机有没有安装过wsl，如下图就是已经安装过，无需再安装![wsl-list](README_zh.assets/wsl-list.png)
 
-   > - 安装wsl的命令：`wsl --install`
-   > - 由于网络原因，可能失败，多试几次
-   > - 安装过程中需要设置新的用户名和密码，设置并记住
+    > - 安装wsl的命令：`wsl --install`
+    > - 由于网络原因，可能失败，多试几次
+    > - 安装过程中需要设置新的用户名和密码，设置并记住
 
 2. 用wsl --update更新wsl。
-   ![output (3)](README_zh.assets/output (3).png)
+    ![updatewsl](README_zh.assets/updatewsl.png)
 
 3. [下载 Docker Windows 版](https://www.docker.com/)，根据机器 CPU 架构选择不同的安装包。
 
 4. 出现这个界面表示安装成功。
-   ![61eb4c19-3e7a-4791-a266-de4209690cbd](README_zh.assets/61eb4c19-3e7a-4791-a266-de4209690cbd.png)
+    ![61eb4c19-3e7a-4791-a266-de4209690cbd](README_zh.assets/61eb4c19-3e7a-4791-a266-de4209690cbd.png)
 
 5. 运行 Docker
-   ![output (5)](README_zh.assets/output (5).png)
+    ![shortcut](README_zh.assets/shortcut.png)
 
 6. 首次运行接受协议和跳过登录
-   ![output (6)](README_zh.assets/output (6).png)
-   ![576746d5-5215-4973-b1ca-c8d7409a6403](README_zh.assets/576746d5-5215-4973-b1ca-c8d7409a6403.png)
-   ![9a10b7b2-1eea-48c1-b7af-34129fe04446](README_zh.assets/9a10b7b2-1eea-48c1-b7af-34129fe04446.png)
+    ![accept](README_zh.assets/accept.png)
+    ![576746d5-5215-4973-b1ca-c8d7409a6403](README_zh.assets/576746d5-5215-4973-b1ca-c8d7409a6403.png)
+    ![9a10b7b2-1eea-48c1-b7af-34129fe04446](README_zh.assets/9a10b7b2-1eea-48c1-b7af-34129fe04446.png)
 
 ### 安装服务端
 
 采用Docker方式安装，docker-compose如下：
 
-```yaml
-networks:
-  ai_network:
-    driver: bridge
+1. `docker-compose.yml`文件在`/deploy`目录下。
 
-services:
-  heygem-tts:
-    image: guiji2025/fish-speech-ziming:1.0.39
-    container_name: heygem-tts
-    restart: always
-    runtime: nvidia
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=0
-      - NVIDIA_DRIVER_CAPABILITIES=compute,graphics,utility,video,display
-    ports:
-      - '18180:8080'
-    volumes:
-      - d:/heygem_data/voice/data:/code/data
-      - d:/heygem_data/voice/config.py:/code/config.py
-    command: /bin/bash -c "/opt/conda/envs/python310/bin/python3 -m tools.api --listen 0.0.0.0:8080"
-    networks:
-      - ai_network
-  heygem-f2f:
-    image: guiji2025/heygem.ai:0.0.7_sdk_slim
-    container_name: heygem-f2f
-    restart: always
-    privileged: true
-    volumes:
-      - d:/heygem_data/face2face:/code/data
-      - d:/heygem_data/face2face/sdk/config.ini:/code/config/config.ini
-      - d:/heygem_data/face2face/sdk/license.txt:/code/license.txt
-    environment:
-      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: [gpu]
-    shm_size: '8g'
-    ports:
-      - '8383:8383'
-    command: python /code/app_local.py
-    networks:
-      - ai_network
-  heygem-asr:
-    image: guiji2025/fun-asr:1.0.1
-    container_name: heygem-asr
-    restart: always
-    runtime: nvidia
-    privileged: true
-    working_dir: /workspace/FunASR/runtime
-    ports:
-      - '10095:10095'
-    volumes:
-      - D:/heygem_data/asr/runtime-resources/models:/workspace/models
-    command: sh /run.sh
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
-    networks:
-      - ai_network
-```
-
-1. 在本地新建一个`docker-compose.yml`文件，把上面的内容粘贴进去。
-
-2. 在`docker-compose.yml`所在目录执行`docker-compose up -d`
+2. 在`/deploy`目录执行`docker-compose up -d`
 
 3. 耐心等待一段时间（半小时左右，速度取决于网速），下载会消耗70G左右流量，注意连WIFI
 4. 看到Dokcer 中出现三个服务，表示成功了
-   ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
+    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
 ### 客户端
 
@@ -170,28 +103,28 @@ services:
 
 1. 将视频分离为静音视频 + 音频
 2. 音频放到`D:\heygem_data\voice\data`下
-   > `D:\heygem_data\voice\data`是与`guiji2025/fish-speech-ziming`服务约定的，可以在docker-compose中修改
+    > `D:\heygem_data\voice\data`是与`guiji2025/fish-speech-ziming`服务约定的，可以在docker-compose中修改
 3. 调用`http://127.0.0.1:18180/v1/preprocess_and_tran`接口
-   > 参数示例：
-   >
-   > ```json
-   > {
-   >   "format": ".wav",
-   >   "reference_audio": "xxxxxx/xxxxx.wav",
-   >   "lang": "zh"
-   > }
-   > ```
-   >
-   > 返回示例：
-   >
-   > ```json
-   > {
-   >   "asr_format_audio_url": "xxxx/x/xxx/xxx.wav",
-   >   "reference_audio_text": "xxxxxxxxxxxx"
-   > }
-   > ```
-   >
-   > **记录下返回结果后续音频合成需要用到**
+    > 参数示例：
+    >
+    > ```json
+    > {
+    >   "format": ".wav",
+    >   "reference_audio": "xxxxxx/xxxxx.wav",
+    >   "lang": "zh"
+    > }
+    > ```
+    >
+    > 返回示例：
+    >
+    > ```json
+    > {
+    >   "asr_format_audio_url": "xxxx/x/xxx/xxx.wav",
+    >   "reference_audio_text": "xxxxxxxxxxxx"
+    > }
+    > ```
+    >
+    > **记录下返回结果后续音频合成需要用到**
 
 ### 音频合成
 
@@ -221,17 +154,17 @@ services:
 
 - 合成接口：`http://127.0.0.1:8383/easy/submit`
 
-```json
-// 请求参数
-{
-  "audio_url": "{audioPath}", // 音频路径
-  "video_url": "{videoPath}", // 音频路径
-  "code": "{uuid}", // 唯一key
-  "chaofen": 0, // 固定值
-  "watermark_switch": 0, // 固定值
-  "pn": 1 // 固定值
-}
-```
+  ```json
+  // 请求参数
+  {
+    "audio_url": "{audioPath}", // 音频路径
+    "video_url": "{videoPath}", // 音频路径
+    "code": "{uuid}", // 唯一key
+    "chaofen": 0, // 固定值
+    "watermark_switch": 0, // 固定值
+    "pn": 1 // 固定值
+  }
+  ```
 
 - 进度查询：`http://127.0.0.1:8383/easy/query?code=${taskCode}`
   > get 请求，参数`taskCode`是上面合成接口的返回值
