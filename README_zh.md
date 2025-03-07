@@ -145,7 +145,7 @@ services:
 
 1. 在本地新建一个`docker-compose.yml`文件，把上面的内容粘贴进去。
 
-2. 在`docker-compose.yml`所在目录执行`docker-compose docker-compose up -d`
+2. 在`docker-compose.yml`所在目录执行`docker-compose up -d`
 
 3. 耐心等待一段时间（半小时左右，速度取决于网速），下载会消耗70G左右流量，注意连WIFI
 4. 看到Dokcer 中出现三个服务，表示成功了
