@@ -24,7 +24,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 1. Nodejs 18
 2. Docker Image
-   - docker pull guiji2025/fun-asr:1.0.1
+   - docker pull guiji2025/fun-asr:1.0.2
    - docker pull guiji2025/fish-speech-ziming:1.0.39
    - docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
 
@@ -32,28 +32,36 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 ### 前置条件
 
-1. 必须有 D 盘：主要用于后续数字人、作品等数据存储
-   - 空闲空间要求：大于30G
-2. C 盘：用于存储服务镜像文件
-   - 空闲空间要求：大于 100G
-   - 如果不足 100G，可以在安装完成docker后，在下图的位置重新选一个剩余空间大于 100G 的磁盘文件夹。
-     ![output](README_zh.assets/output.png)
-3. 系统要求：
-   - 目前支持 Windows 10 19042.1526 或更高版本
-4. 推荐配置：
-   - CPU：第13代英特尔酷睿 i5-13400F
-   - 内存：32G
-   - 显卡：rtx-4070
-5. 确保有英伟达显卡，并正确安装显卡驱动
-   > 英伟达驱动下载地址 https://www.nvidia.cn/drivers/lookup/ > ![nvidia](README_zh.assets/nvidia.png)
+1.  必须有 D 盘：主要用于后续数字人、作品等数据存储
+    - 空闲空间要求：大于30G
+2.  C 盘：用于存储服务镜像文件
+
+    - 空闲空间要求：大于 100G
+    - 如果不足 100G，可以在安装完成docker后，在下图的位置重新选一个剩余空间大于 100G 的磁盘文件夹。
+
+      ![output](README_zh.assets/output.png)
+
+3.  系统要求：
+    - 目前支持 Windows 10 19042.1526 或更高版本
+4.  推荐配置：
+    - CPU：第13代英特尔酷睿 i5-13400F
+    - 内存：32G
+    - 显卡：rtx-4070
+5.  确保有英伟达显卡，并正确安装显卡驱动
+
+    英伟达驱动下载地址 https://www.nvidia.cn/drivers/lookup/
+
+    ![nvidia](README_zh.assets/nvidia.png)
 
 ### 安装 Windows Docker
 
-1. 用wsl --list --verbose命令可以查看本机有没有安装过wsl，如下图就是已经安装过，无需再安装![wsl-list](README_zh.assets/wsl-list.png)
+1. 用wsl --list --verbose命令可以查看本机有没有安装过wsl，如下图就是已经安装过，无需再安装
 
-   > - 安装wsl的命令：`wsl --install`
-   > - 由于网络原因，可能失败，多试几次
-   > - 安装过程中需要设置新的用户名和密码，设置并记住
+   ![wsl-list](README_zh.assets/wsl-list.png)
+
+> - 安装wsl的命令：`wsl --install`
+> - 由于网络原因，可能失败，多试几次
+> - 安装过程中需要设置新的用户名和密码，设置并记住
 
 2. 用wsl --update更新wsl。
 
