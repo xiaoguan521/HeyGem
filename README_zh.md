@@ -57,7 +57,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 1. 用wsl --list --verbose命令可以查看本机有没有安装过wsl，如下图就是已经安装过，无需再安装
 
-   ![wsl-list](README_zh.assets/wsl-list.png)
+   ![image-20250310111137019](README_zh.assets/image-20250310111137019.png)
 
 > - 安装wsl的命令：`wsl --install`
 > - 由于网络原因，可能失败，多试几次
