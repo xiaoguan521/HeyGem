@@ -24,9 +24,9 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 1. Nodejs 18
 2. Docker Image
-   - docker pull guiji2025/fun-asr:1.0.2
-   - docker pull guiji2025/fish-speech-ziming:1.0.39
-   - docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
+   - docker pull guiji2025/fun-asr
+   - docker pull guiji2025/fish-speech-ziming
+   - docker pull guiji2025/heygem.ai
 
 ## 如何安装
 
@@ -90,9 +90,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 采用Docker方式安装，docker-compose如下：
 
 1. `docker-compose.yml`文件在`/deploy`目录下。
-
 2. 在`/deploy`目录执行`docker-compose up -d`
-
 3. 耐心等待一段时间（半小时左右，速度取决于网速），下载会消耗70G左右流量，注意连WIFI
 4. 看到Dokcer 中出现三个服务，表示成功了
 
@@ -100,8 +98,8 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 ### 客户端
 
-1. 构建脚本`npm run build:win`，执行后会在`dist`目录下产生`HeyGem-1.0.0-setup.exe`
-2. 双击`HeyGem-1.0.0-setup.exe`即可安装
+1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
+2. 双击`HeyGem-x.x.x-setup.exe`即可安装
 
 ## 开放 API
 
@@ -182,6 +180,9 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 - 进度查询：`http://127.0.0.1:8383/easy/query?code=${taskCode}`
   > get 请求，参数`taskCode`是上面合成接口的返回值
+
+## 常见问题
+[常见问题](./doc/常见问题.md)
 
 ## 提问前自查步骤
 

@@ -4,7 +4,7 @@ networks:
 
 services:
   heygem-tts:
-    image: guiji2025/fish-speech-ziming:1.0.39
+    image: guiji2025/fish-speech-ziming
     container_name: heygem-tts
     restart: always
     runtime: nvidia
@@ -19,7 +19,7 @@ services:
     networks:
       - ai_network
   heygem-f2f:
-    image: guiji2025/heygem.ai:0.0.7_sdk_slim
+    image: guiji2025/heygem.ai
     container_name: heygem-f2f
     restart: always
     privileged: true
@@ -39,7 +39,7 @@ services:
     networks:
       - ai_network
   heygem-asr:
-    image: guiji2025/fun-asr:1.0.2
+    image: guiji2025/fun-asr
     container_name: heygem-asr
     restart: always
     runtime: nvidia

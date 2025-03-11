@@ -24,9 +24,9 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 
 1. Nodejs 18
 2. Docker Images
-   - docker pull guiji2025/fun-asr:1.0.2
-   - docker pull guiji2025/fish-speech-ziming:1.0.39
-   - docker pull guiji2025/heygem.ai:0.0.7_sdk_slim
+   - docker pull guiji2025/fun-asr
+   - docker pull guiji2025/fish-speech-ziming
+   - docker pull guiji2025/heygem.ai
 
 ## Installation
 
@@ -90,9 +90,7 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 Installation using Docker, docker-compose as follows:
 
 1. The `docker-compose.yml` file is in the `/deploy` directory.
-
 2. Execute `docker-compose up -d` in the `/deploy` directory
-
 3. Wait patiently (about half an hour, speed depends on network), download will consume about 70GB of traffic, make sure to use WiFi
 4. When you see three services in Docker, it indicates success
 
@@ -100,8 +98,8 @@ Installation using Docker, docker-compose as follows:
 
 ### Client
 
-1. Build script `npm run build:win`, after execution will generate `HeyGem-1.0.0-setup.exe` in the `dist` directory
-2. Double-click `HeyGem-1.0.0-setup.exe` to install
+1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
+2. Double-click `HeyGem-x.x.x-setup.exe` to install
 
 ## Open APIs
 
