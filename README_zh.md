@@ -1,4 +1,4 @@
-# Heygem - Open Source Alternative to Heygen [【Switch to English】](./README.md)
+# Heygem - Heygen的开源平替产品 [【Switch to English】](./README.md)
 
 ## 【致开发者伙伴的重要通知】
 
