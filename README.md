@@ -16,7 +16,7 @@ We sincerely thank you for your enthusiastic attention and active participation 
 | Technical Support | Community Support                                        | Dynamic expansion support + professional technical response team          |
 | Maintenance Cost | High maintenance cost                                     | Simple maintenance                                                        |
 | Lip Sync Effect | Usable effect                                              | Stunning and higher definition effect                                     |
-| Commercial Authorization | Restricted commercial use                         | Commercial use allowed                                                    |
+| Commercial Authorization | Commercial use in Mainland China, Hong Kong, and Macau requires prior application, while other countries are unrestricted.                         | Commercial use allowed                                                    |
 | Iteration Speed | Slow updates, bug fixes depend on the community            | Latest models/algorithms are prioritized, fast problem resolution         |
 
 We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through end_sub@hotmail.com. We look forward to working with you to promote the inclusive development of digital human technology!
