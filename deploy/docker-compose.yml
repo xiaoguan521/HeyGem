@@ -39,7 +39,7 @@ services:
       - ai_network
   heygem-f2f:
     image: guiji2025/heygem.ai
-    container_name: heygem-f2f`
+    container_name: heygem-f2f
     restart: always
     privileged: true
     volumes:
