@@ -57,6 +57,9 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 ## 如何安装
 
+<video src="https://cdn.guiji.ai/heygem/heygem-install.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
 ### 前置条件
 
 1.  必须有 D 盘：主要用于后续数字人、作品等数据存储

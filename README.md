@@ -58,6 +58,9 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
 
 ## Installation
 
+<video src="https://cdn.guiji.ai/heygem/heygem-install.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
 ### Prerequisites
 
 1. Must have D Drive: Mainly used for storing digital human and project data
