@@ -27,7 +27,7 @@
 
 [**实时交互SDK**](https://app.guiji.cn/platform) | [**SDK文档中心**](https://guiji.cn/duix-light-document/introduce/)
 
-<img src="./README_zh.assets/E663AAC1-AA9D-4A44-A447-F6AF42BFE354.png" width="50%">
+<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
 
 ## 介绍
 

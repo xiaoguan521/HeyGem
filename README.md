@@ -27,7 +27,7 @@ We always adhere to the open source spirit, and the launch of the API service ai
 
 [**Real-time Interaction SDK**](https://app.guiji.cn/platform) | [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)
 
-<img src="./README_zh.assets/E663AAC1-AA9D-4A44-A447-F6AF42BFE354.png" width="50%">
+<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
 
 ## Introduction
 
