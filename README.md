@@ -6,30 +6,31 @@
 
 We sincerely thank you for your enthusiastic attention and active participation in the Heygem digital human open source project! We have noticed that some developers face challenges during local deployment. To better meet the needs of different scenarios, we are now announcing two parallel service solutions:
 
-| **Project** | **HeyGem Open Source Local Deployment**                        | **Digital Human/Clone Voice API Service**                                  |
-| ----------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Usage       | Open Source Local Deployment                                   | Rapid Clone API Service                                                   |
-| Recommended | Technical Users                                                | Business Users                                                            |
-| Technical Threshold | Developers with deep learning framework experience/pursuing deep customization/wishing to participate in community co-construction | Quick business integration/focus on upper-level application development/need enterprise-level SLA assurance for commercial scenarios |
-| Hardware Requirements | Need to purchase GPU server                          | No need to purchase GPU server                                            |
-| Customization | Can modify and extend the code according to your needs, fully controlling the software's functions and behavior | Cannot directly modify the source code, can only extend functions through API-provided interfaces, less flexible than open source projects |
-| Technical Support | Community Support                                        | Dynamic expansion support + professional technical response team          |
-| Maintenance Cost | High maintenance cost                                     | Simple maintenance                                                        |
-| Lip Sync Effect | Usable effect                                              | Stunning and higher definition effect                                     |
-| Commercial Authorization | Commercial use in Mainland China, Hong Kong, and Macau requires prior application, while other countries are unrestricted.                         | Commercial use allowed                                                    |
-| Iteration Speed | Slow updates, bug fixes depend on the community            | Latest models/algorithms are prioritized, fast problem resolution         |
+| **Project**              | **HeyGem Open Source Local Deployment**                                                                                                                               | **Digital Human/Clone Voice API Service**                                                                                                  |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Usage                    | Open Source Local Deployment                                                                                                                                          | Rapid Clone API Service                                                                                                                    |
+| Recommended              | Technical Users                                                                                                                                                       | Business Users                                                                                                                             |
+| Technical Threshold      | Developers with deep learning framework experience/pursuing deep customization/wishing to participate in community co-construction                                    | Quick business integration/focus on upper-level application development/need enterprise-level SLA assurance for commercial scenarios       |
+| Hardware Requirements    | Need to purchase GPU server                                                                                                                                           | No need to purchase GPU server                                                                                                             |
+| Customization            | Can modify and extend the code according to your needs, fully controlling the software's functions and behavior                                                       | Cannot directly modify the source code, can only extend functions through API-provided interfaces, less flexible than open source projects |
+| Technical Support        | Community Support                                                                                                                                                     | Dynamic expansion support + professional technical response team                                                                           |
+| Maintenance Cost         | High maintenance cost                                                                                                                                                 | Simple maintenance                                                                                                                         |
+| Lip Sync Effect          | Usable effect                                                                                                                                                         | Stunning and higher definition effect                                                                                                      |
+| Commercial Authorization | Supports global free commercial use (enterprises with more than 100,000 users or annual revenue exceeding 10 million USD need to sign a commercial license agreement) | Commercial use allowed                                                                                                                     |
+| Iteration Speed          | Slow updates, bug fixes depend on the community                                                                                                                       | Latest models/algorithms are prioritized, fast problem resolution                                                                          |
 
 We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through end_sub@hotmail.com. We look forward to working with you to promote the inclusive development of digital human technology!
 
 **Silicon-based Intelligent Developer Team**
 
-[**Rapid Clone API**](https://app.guiji.cn/platform)  |  [**API Documentation Center**](https://guiji.cn/digital-docs/introduce/)
+[**Rapid Clone API**](https://app.guiji.cn/platform) | [**API Documentation Center**](https://guiji.cn/digital-docs/introduce/)
 
-[**Real-time Interaction SDK**](https://app.guiji.cn/platform)  |  [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)
+[**Real-time Interaction SDK**](https://app.guiji.cn/platform) | [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)
 
 <img src="./README_zh.assets/E663AAC1-AA9D-4A44-A447-F6AF42BFE354.png" width="50%">
 
 ## Introduction
+
 <img src="README_zh.assets/image-20250304114114272.png">
 
 Heygem is a fully offline video synthesis tool designed for Windows systems that can precisely clone your appearance and voice, digitalizing your image. You can create videos by driving virtual avatars through text and voice. No internet connection is required, protecting your privacy while enjoying convenient and efficient digital experiences.
