@@ -27,6 +27,10 @@
 
 [**实时交互SDK**](https://app.guiji.cn/platform)  |  [**SDK文档中心**](https://guiji.cn/duix-light-document/introduce/)
 
+[**本地实时交互（realtime）duix.ai 开源地址**](https://github.com/GuijiAI/duix.ai) |
+[**Android版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
+[**IOS版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
+
 <img src="./README_zh.assets/E663AAC1-AA9D-4A44-A447-F6AF42BFE354.png" width="50%">
 
 ## 介绍

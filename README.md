@@ -27,6 +27,10 @@ We always adhere to the open source spirit, and the launch of the API service ai
 
 [**Real-time Interaction SDK**](https://app.guiji.cn/platform)  |  [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)
 
+[**Local Real-time Interaction (realtime) duix.ai Open Source Address**](https://github.com/GuijiAI/duix.ai) |
+[**Android Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
+[**IOS Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
+
 <img src="./README_zh.assets/E663AAC1-AA9D-4A44-A447-F6AF42BFE354.png" width="50%">
 
 ## Introduction
