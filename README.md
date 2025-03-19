@@ -19,7 +19,7 @@ We sincerely thank you for your enthusiastic attention and active participation 
 | Commercial Authorization | Supports global free commercial use (enterprises with more than 100,000 users or annual revenue exceeding 10 million USD need to sign a commercial license agreement) | Commercial use allowed                                                                                                                     |
 | Iteration Speed          | Slow updates, bug fixes depend on the community                                                                                                                       | Latest models/algorithms are prioritized, fast problem resolution                                                                          |
 
-We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through end_sub@hotmail.com. We look forward to working with you to promote the inclusive development of digital human technology!
+We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through James@toolwiz.com. We look forward to working with you to promote the inclusive development of digital human technology!
 
 **Silicon-based Intelligent Developer Team**
 
@@ -255,7 +255,7 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 ## Contact Us
 
 ```
-  end_sub@hotmail.com
+  James@toolwiz.com
 ```
 
 ## License
