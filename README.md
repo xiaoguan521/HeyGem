@@ -23,6 +23,8 @@ We always adhere to the open source spirit, and the launch of the API service ai
 
 **Silicon-based Intelligent Developer Team**
 
+<a href="https://v.douyin.com/i57bXKqE/" target="_blank">Heygem Open Source Local Deployment Tutorial</a>
+
 [**Rapid Clone API**](https://app.guiji.cn/platform) | [**API Documentation Center**](https://guiji.cn/digital-docs/introduce/)
 
 [**Real-time Interaction SDK**](https://app.guiji.cn/platform) | [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)

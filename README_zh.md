@@ -19,9 +19,11 @@
 | 商用授权 | 支持全球免费商用（用户量超过10万或年营收达1000万美元以上的企业需签署商业许可协议） | 可商用                                                                    |
 | 迭代速度 | 更新慢，Bug修复依赖社区                                                            | 最新模型/算法优先适用，问题修复快                                         |
 
-我们始终秉持开源初心，API服务的推出旨在为不同需求的开发者提供更完整的解决方案矩阵。无论您选择哪种方式，都可随时通过end_sub@hotmail.com获取技术支持文档。期待与各位共同推动数字人技术的普惠发展！
+我们始终秉持开源初心，API服务的推出旨在为不同需求的开发者提供更完整的解决方案矩阵。无论您选择哪种方式，都可随时通过James@toolwiz.com获取技术支持文档。期待与各位共同推动数字人技术的普惠发展！
 
 **硅基智能开发者团队**
+
+<a href="https://v.douyin.com/i57bXKqE/" target="_blank">Heygem开源本地部署教程</a>
 
 [**极速克隆API**](https://app.guiji.cn/platform) | [**API文档中心**](https://guiji.cn/digital-docs/introduce/)
 
@@ -61,9 +63,6 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
    - docker pull guiji2025/heygem.ai
 
 ## 如何安装
-
-<video src="https://cdn.guiji.ai/heygem/heygem-install.mp4" controls="controls" style="max-width: 730px;">
-</video>
 
 ### 前置条件
 
