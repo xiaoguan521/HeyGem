@@ -204,7 +204,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
   // 请求参数
   {
     "audio_url": "{audioPath}", // 音频路径
-    "video_url": "{videoPath}", // 音频路径
+    "video_url": "{videoPath}", // 视频路径
     "code": "{uuid}", // 唯一key
     "chaofen": 0, // 固定值
     "watermark_switch": 0, // 固定值
