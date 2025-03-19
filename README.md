@@ -217,7 +217,7 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
   ```
 
 - Progress query: `http://127.0.0.1:8383/easy/query?code=${taskCode}`
-  > GET request, parameter `taskCode` is the return value from the above synthesis interface
+  > GET request, the parameter `taskCode` is the `code` from the synthesis interface input above
 
 ## Self-Check Steps Before Asking Questions
 

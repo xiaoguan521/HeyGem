@@ -213,7 +213,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
   ```
 
 - 进度查询：`http://127.0.0.1:8383/easy/query?code=${taskCode}`
-  > get 请求，参数`taskCode`是上面合成接口的返回值
+  > get 请求，参数`taskCode`是上面合成接口入参中的`code`
 
 ## 常见问题
 
