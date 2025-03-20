@@ -23,7 +23,7 @@ We always adhere to the open source spirit, and the launch of the API service ai
 
 **Silicon-based Intelligent Developer Team**
 
-<a href="https://v.douyin.com/i57bXKqE/" target="_blank">Heygem Open Source Local Deployment Tutorial</a>
+<a href="https://mp.weixin.qq.com/s/vKiBR85E7JyRkr6CxLCppA?mpshare=1&scene=1&srcid=0319sszkopZO6870sGsU0TFc&sharer_shareinfo=cac5ec3bfa62ed558552c7c022821613&sharer_shareinfo_first=cac5ec3bfa62ed558552c7c022821613&from=industrynews#rd" target="_blank">From scratch, hand-in-hand to teach you how to create your own HeyGem open source AI digital human!</a>
 
 [**Rapid Clone API**](https://app.guiji.cn/platform) | [**API Documentation Center**](https://guiji.cn/digital-docs/introduce/)
 
@@ -34,6 +34,49 @@ We always adhere to the open source spirit, and the launch of the API service ai
 [**IOS Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
 <img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
+
+## Open Source Co-Creation · Shared Glory
+
+Since we open-sourced Heygem, global geeks have illuminated the digital avatar matrix in the code universe, with each commit reconstructing the future! But joy is better shared than enjoyed alone—now we invite all experts to join the "Open Source Co-Creation Plan," empowering everyone with AI creativity and propelling the Chinese AI fleet towards the stars!
+
+1. Co-Creation Content Direction
+
+    Share high-quality videos or articles on Heygem deployment tutorials, optimization guides, and practical cases (Bilibili, Douyin, Xiaohongshu, WeChat Official Accounts, Zhihu, etc.)
+
+2. Open Source Co-Creation Special Reward Pool (Real Cash Rewards!)
+
+    (1) Basic Rewards
+
+       Content receiving 20-100 likes will be awarded the [Heygem.ai Master Award] and a 20 RMB cash red envelope.
+
+       Content receiving 100+ likes will be awarded the [Heygem.ai God Award] and a 50 RMB cash red envelope.
+
+    (2) Special Achievements:
+
+        The monthly MVP will unlock the Open Source Hall of Fame digital badge (permanently on-chain).
+
+3. Participation Method
+
+     Send your creativity to the customer service lady, add a friend with the note "Name+999".
+
+<img src="./README_zh.assets/2025-03-20_14-38-00.jpg" width="50%">
+
+
+## Outstanding Co-Creation Works Exhibition
+
+[HeyGem Digital Human One-Click Start, 8G Video Memory Available, Model Size 10G, No Need for 100G Hard Disk Space, No Need for D Drive, Based on Docker Single Image, Silicon-Based Open Source](https://www.bilibili.com/video/BV1awQqYZEqB/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[Ai Digital Human 16 - Local Deployment! The Most Popular Open Source Digital Human HeyGem Zero-Basis Hands-On Teaching Setup Tutorial, 20% Generation Stuck Solution, Full Simplified Process with Supporting Files - T8 ComfyUI Tutorial](https://www.bilibili.com/video/BV1ACQSYEErF/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[Heygem Open Source Witnessed History! Cyber Worker Revolution!](https://www.bilibili.com/video/BV1R3QpYsEY6/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[Digital Human Project Heygem Local Deployment Tutorial](https://www.bilibili.com/video/BV1eWQ6YgEcp/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[So Tempting! From Paid to Open Source, AI Digital Humans Will Open a New Era](http://xhslink.com/a/rQPYqoDSRih8)
+
+[Open Source Free Digital Humans Are Here, Unlimited Times, Fast Cloning](http://xhslink.com/a/tX3p5V5tajh8)
+
+[AI Digital Humans Are Free! GitHub's Hot Project Can Run on Your Computer](http://xhslink.com/a/8UT1kQ7vxjh8)
 
 ## Introduction
 
@@ -64,9 +107,6 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
    - docker pull guiji2025/heygem.ai
 
 ## Installation
-
-<video src="https://cdn.guiji.ai/heygem/heygem-install.mp4" controls="controls" style="max-width: 730px;">
-</video>
 
 ### Prerequisites
 

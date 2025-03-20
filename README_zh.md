@@ -23,7 +23,7 @@
 
 **硅基智能开发者团队**
 
-<a href="https://v.douyin.com/i57bXKqE/" target="_blank">Heygem开源本地部署教程</a>
+<a href="https://mp.weixin.qq.com/s/vKiBR85E7JyRkr6CxLCppA?mpshare=1&scene=1&srcid=0319sszkopZO6870sGsU0TFc&sharer_shareinfo=cac5ec3bfa62ed558552c7c022821613&sharer_shareinfo_first=cac5ec3bfa62ed558552c7c022821613&from=industrynews#rd" target="_blank">从零开始，手把手教你打造专属HeyGem 开源AI数字人！</a>
 
 [**极速克隆API**](https://app.guiji.cn/platform) | [**API文档中心**](https://guiji.cn/digital-docs/introduce/)
 
@@ -34,6 +34,50 @@
 [**IOS版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
 <img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
+
+
+## 【开源共创·荣耀共享】
+
+自从我们开源了Heygem，全球极客已在代码宇宙中点亮数字分身矩阵，每个commit都在重构未来！但独乐乐不如众乐乐——现在诚邀各路大神加入「开源共创计划」，让AI创意赋能每个人，一起推动中国AI舰队驶向星辰大海！
+
+1. 共创内容方向
+
+    分享Heygem部署教程、优化指南、实战案例等高质量视频或文章（B站、抖音、小红书、公众号、知乎等）
+
+2. 开源共创特供奖励池（真金白银奉上！）
+
+    （1）基础奖励
+
+       内容获得 20-100 点赞，获评【Heygem.ai 大师奖】及 20 元现金大师🧧
+
+       内容获得 100+ 点赞，获评【Heygem.ai 之神奖】及 50 元现金大神🧧
+
+    （2）特殊成就：
+
+        月度MVP将解锁开源名人堂数字勋章（永久上链）
+
+3. 参与方式
+
+     你的创意发送至至客服小姐姐，加好友备注“姓名+999”
+
+<img src="./README_zh.assets/2025-03-20_14-38-00.jpg" width="50%">
+
+
+## 共创优秀作品展
+
+[HeyGem数字人一键启动,8G显存可用,模型体积10G,不需要100G硬盘空间,不需要d盘,基于Docker单镜像,硅基开源](https://www.bilibili.com/video/BV1awQqYZEqB/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[Ai数字人16-本地部署！最火爆开源数字人HeyGem零基础手把手教学搭建教程，20%生成卡住解决方法，全套简化流程配套文件分享-T8 comfyui教程](https://www.bilibili.com/video/BV1ACQSYEErF/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[heygem开源见证历史了！赛博打工人革命啊！](https://www.bilibili.com/video/BV1R3QpYsEY6/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[数字人项目Heygem本地部署教程](https://www.bilibili.com/video/BV1eWQ6YgEcp/?spm_id_from=333.337.search-card.all.click&vd_source=618f44772c5dafb47317bb728505d79c)
+
+[真香！从付费到开源，AI数字人将开启新时代](http://xhslink.com/a/rQPYqoDSRih8)
+
+[开源免费的数字人来了，不限次数，快速克隆](http://xhslink.com/a/tX3p5V5tajh8)
+
+[AI数字人免费啦！GitHub爆火项目电脑就能跑](http://xhslink.com/a/8UT1kQ7vxjh8)
 
 ## 介绍
 
