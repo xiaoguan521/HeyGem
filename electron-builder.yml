@@ -46,7 +46,7 @@ linux:
     Comment: ${productName}
     GenericName: ${productName}
     executableName: ${productName}
-    Icon: ${productName}
+    Icon: build/icon.png
     Terminal: false
     Type: Application
     Categories: Utility
