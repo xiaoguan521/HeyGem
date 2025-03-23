@@ -6,7 +6,7 @@
   "author": "guiji.ai",
   "homepage": "https://heygem.ai",
   "scripts": {
-    "dev": "electron-vite dev --watch",
+    "dev": "electron-vite dev --watch --noSandbox",
     "start": "electron-vite preview",
     "build": "electron-vite build",
     "postinstall": "electron-builder install-app-deps",

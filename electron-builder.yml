@@ -40,6 +40,20 @@ linux:
     # - deb
   maintainer: electronjs.org
   category: Utility
+  icon: build/icon.png
+  desktop:
+    Name: ${productName}
+    Comment: ${productName}
+    GenericName: ${productName}
+    Exec: ${productName}
+    Icon: ${productName}
+    Terminal: false
+    Type: Application
+    Categories: Utility
+    Keywords:
+      - ${productName}
+      - 数字人
+      - 视频生成
 appImage:
   artifactName: ${productName}-${version}.${ext}
 npmRebuild: false
