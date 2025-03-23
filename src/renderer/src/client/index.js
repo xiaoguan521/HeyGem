@@ -1,10 +1,11 @@
-
+import { localUrl } from "@renderer/utils"
 
 export const Client = {
   file: {
     ...window.client.file,
-    selectFile: (filter = {}) => {
-      return window.client.file.selectFile(filter)
+    selectFile: async (filter = {}) => {
+      const filePath = await window.client.file.selectFile(filter)
+      return localUrl.addFileProtocol(filePath)
     },
     selectImage: async () => {
       return Client.file.selectFile({ name: 'Images', extensions: ['jpg', 'png', 'jpeg'] })

@@ -165,7 +165,6 @@ const modelPageAJax = async () => {
       pageSize: state.pageSize,
       name: state.formData.name
     })
-
     if (res) {
       const { total, list } = res
       if (list) {
