@@ -187,7 +187,7 @@ Installation using Docker, docker-compose as follows:
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. Double-click `HeyGem-x.x.x-setup.exe` to install
 
-## Linux Installation (Example: Ubuntu 22.04)
+## Ubuntu 22.04 Installation
 
 ### Recommended Configuration
 
