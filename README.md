@@ -114,7 +114,7 @@ Heygem is a fully offline video synthesis tool designed for Windows systems that
    - docker pull guiji2025/fish-speech-ziming
    - docker pull guiji2025/heygem.ai
 
-## Installation
+## Windows Installation
 
 ### Prerequisites
 
@@ -186,6 +186,24 @@ Installation using Docker, docker-compose as follows:
 
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. Double-click `HeyGem-x.x.x-setup.exe` to install
+
+## Linux Installation (Example: Ubuntu 22.04)
+
+### Recommended Configuration
+
+- CPU: 13th Gen Intel Core i5-13400F
+- Memory: 32GB or more (required)
+- Graphics Card: RTX-4070 (ensure you have an NVIDIA graphics card and the driver is correctly installed)
+- Hard Disk: More than 100GB of free space
+
+### Install Docker
+
+> First, check if Docker is installed using `docker --version`. If it is installed, skip the following steps.
+
+1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases) for the Linux version
+2. Double-click `HeyGem-x.x.x.AppImage` to launch, no installation required
+
+  > Reminder: On Ubuntu systems, if you are using the `root` user to access the desktop, double-clicking `HeyGem-x.x.x.AppImage` may not work. You need to execute `./HeyGem-x.x.x.AppImage --no-sandbox` in the terminal, adding the `--no-sandbox` parameter.
 
 ## Open APIs
 

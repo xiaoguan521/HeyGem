@@ -115,7 +115,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
    - docker pull guiji2025/fish-speech-ziming
    - docker pull guiji2025/heygem.ai
 
-## 如何安装
+## Windows 安装
 
 ### 前置条件
 
@@ -187,6 +187,82 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. 双击`HeyGem-x.x.x-setup.exe`即可安装
+
+## Linux 安装（以Ubuntu 22.04为例）
+
+### 推荐配置
+
+ - CPU：第13代英特尔酷睿 i5-13400F
+ - 内存：32G及以上（必要）
+ - 显卡：rtx-4070（确保有英伟达显卡，并正确安装显卡驱动）
+ - 硬盘：空闲空间大于 100G
+
+### 安装 Docker
+
+> 先用`docker --version`检查是否安装了docker，如果安装了，则跳过以下步骤
+
+```bash
+sudo apt update
+sudo apt install docker.io
+sudo apt install docker-compose
+```
+
+### 安装显卡驱动
+
+1. 参考官方文档安装显卡驱动[https://www.nvidia.cn/drivers/lookup/](https://www.nvidia.cn/drivers/lookup/)
+
+    > 安装后执行`nvidia-smi`命令，如果显示显卡信息，则安装成功
+
+2. 安装 NVIDIA Container Toolkit
+
+    NVIDIA Container Toolkit 是 Docker 使用 NVIDIA GPU 的必要工具。安装步骤如下：
+    - 添加 NVIDIA 包仓库：
+      ```bash
+      distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+        && curl -s -L https://nvidia.github.io/libnvidia-container/gpgkey | sudo apt-key add - \
+        && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+      ```
+    - 更新包列表并安装工具包：
+      ```bash
+        sudo apt-get update
+        sudo apt-get install -y nvidia-container-toolkit
+      ```
+    - 配置 Docker 使用 NVIDIA 运行时：
+      ```bash
+        sudo nvidia-ctk runtime configure --runtime=docker
+      ```
+    - 重启 Docker 服务：
+      ```bash
+        sudo systemctl restart docker
+      ```
+
+### 安装服务端
+
+```bash
+cd /deploy
+docker-compose -f docker-compose-linux.yml up -d
+```
+
+> 与windows上拉镜像一样，如果下载太慢，需要指定国内镜像源方法是在`/etc/docker/daemon.json`文件中添加：
+>
+> ```json
+> {
+>   "registry-mirrors": [
+>     "https://hub.fast360.xyz",
+>     "https://hub.littlediary.cn",
+>     "https://docker.kejilion.pro",
+>     "https://docker.1panelproxy.com"
+>   ]
+> }
+> ```
+> 上面四个镜像源，随着时间推移，可能会有变化，请自行搜索最新的镜像源
+
+### 客户端
+
+1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)的Linux版本
+2. 双击`HeyGem-x.x.x.AppImage`即可启动，无需安装
+
+  > 提醒：在Ubuntu系统中，如果您使用`root`用户进入桌面，直接双击`HeyGem-x.x.x.AppImage`可能运行不了，需要在命令行终端中执行`./HeyGem-x.x.x.AppImage --no-sandbox`,加上`--no-sandbox`参数即可。
 
 ## 开放 API
 
