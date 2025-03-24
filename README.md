@@ -47,28 +47,27 @@ We always adhere to the open source spirit, and the launch of the API service ai
 
 Since we open-sourced Heygem, global geeks have illuminated the digital avatar matrix in the code universe, with each commit reconstructing the future! But joy is better shared than enjoyed alone—now we invite all experts to join the "Open Source Co-Creation Plan," empowering everyone with AI creativity and propelling the Chinese AI fleet towards the stars!
 
-1. Co-Creation Content Direction
+1.  Co-Creation Content Direction
 
     Share high-quality videos or articles on Heygem deployment tutorials, optimization guides, and practical cases (Bilibili, Douyin, Xiaohongshu, WeChat Official Accounts, Zhihu, etc.)
 
-2. Open Source Co-Creation Special Reward Pool (Real Cash Rewards!)
+2.  Open Source Co-Creation Special Reward Pool (Real Cash Rewards!)
 
     (1) Basic Rewards
 
-       Content receiving 20-100 likes will be awarded the [Heygem.ai Master Award] and a 20 RMB cash red envelope.
+    Content receiving 20-100 likes will be awarded the [Heygem.ai Master Award] and a 20 RMB cash red envelope.
 
-       Content receiving 100+ likes will be awarded the [Heygem.ai God Award] and a 50 RMB cash red envelope.
+    Content receiving 100+ likes will be awarded the [Heygem.ai God Award] and a 50 RMB cash red envelope.
 
     (2) Special Achievements:
 
         The monthly MVP will unlock the Open Source Hall of Fame digital badge (permanently on-chain).
 
-3. Participation Method
+3.  Participation Method
 
-     Send your creativity to the customer service lady, add a friend with the note "Name+999".
+    Send your creativity to the customer service lady, add a friend with the note "Name+999".
 
 <img src="./README_zh.assets/2025-03-20_14-38-00.jpg" width="50%">
-
 
 ## Outstanding Co-Creation Works Exhibition
 
@@ -186,24 +185,6 @@ Installation using Docker, docker-compose as follows:
 
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. Double-click `HeyGem-x.x.x-setup.exe` to install
-
-## Ubuntu 22.04 Installation
-
-### Recommended Configuration
-
-- CPU: 13th Gen Intel Core i5-13400F
-- Memory: 32GB or more (required)
-- Graphics Card: RTX-4070 (ensure you have an NVIDIA graphics card and the driver is correctly installed)
-- Hard Disk: More than 100GB of free space
-
-### Install Docker
-
-> First, check if Docker is installed using `docker --version`. If it is installed, skip the following steps.
-
-1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases) for the Linux version
-2. Double-click `HeyGem-x.x.x.AppImage` to launch, no installation required
-
-  > Reminder: On Ubuntu systems, if you are using the `root` user to access the desktop, double-clicking `HeyGem-x.x.x.AppImage` may not work. You need to execute `./HeyGem-x.x.x.AppImage --no-sandbox` in the terminal, adding the `--no-sandbox` parameter.
 
 ## Open APIs
 
