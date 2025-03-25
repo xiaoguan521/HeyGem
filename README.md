@@ -41,7 +41,7 @@ We always adhere to the open source spirit, and the launch of the API service ai
 [**Android Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
 [**IOS Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
-<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
+<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87a.jpg" width="50%">
 
 ## Open Source Co-Creation · Shared Glory
 
@@ -187,7 +187,7 @@ Installation using Docker, docker-compose as follows:
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. Double-click `HeyGem-x.x.x-setup.exe` to install
 
-## Ubuntu 22.04 Installation
+## Ubuntu 22.04 DeskTop Installation
 
 ### Recommended Configuration
 

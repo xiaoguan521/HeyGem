@@ -30,6 +30,7 @@ function initFFmpeg() {
   }
 
   const ffmpegPathValue = ffmpegPath[`${process.env.NODE_ENV}-${process.platform}`]
+  log.debug('process.env.NODE_ENV:', `${process.env.NODE_ENV}-${process.platform}`)
   log.info('FFmpeg path:', ffmpegPathValue)
   ffmpeg.setFfmpegPath(ffmpegPathValue)
 

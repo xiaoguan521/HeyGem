@@ -188,13 +188,13 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. 双击`HeyGem-x.x.x-setup.exe`即可安装
 
-## Ubuntu22.04 安装
+## Ubuntu22.04 DeskTop 安装
 
 ### 推荐配置
 
  - CPU：第13代英特尔酷睿 i5-13400F
  - 内存：32G及以上（必要）
- - 显卡：rtx-4070（确保有英伟达显卡，并正确安装显卡驱动）
+ - 显卡：rtx-3090（确保有英伟达显卡，并正确安装显卡驱动）
  - 硬盘：空闲空间大于 100G
 
 ### 安装 Docker
