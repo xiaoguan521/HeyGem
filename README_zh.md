@@ -43,33 +43,31 @@
 
 <img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87a.jpg" width="50%">
 
-
 ## 【开源共创·荣耀共享】
 
 自从我们开源了Heygem，全球极客已在代码宇宙中点亮数字分身矩阵，每个commit都在重构未来！但独乐乐不如众乐乐——现在诚邀各路大神加入「开源共创计划」，让AI创意赋能每个人，一起推动中国AI舰队驶向星辰大海！
 
-1. 共创内容方向
+1.  共创内容方向
 
     分享Heygem部署教程、优化指南、实战案例等高质量视频或文章（B站、抖音、小红书、公众号、知乎等）
 
-2. 开源共创特供奖励池（真金白银奉上！）
+2.  开源共创特供奖励池（真金白银奉上！）
 
     （1）基础奖励
 
-       内容获得 20-100 点赞，获评【Heygem.ai 大师奖】及 20 元现金大师🧧
+    内容获得 20-100 点赞，获评【Heygem.ai 大师奖】及 20 元现金大师🧧
 
-       内容获得 100+ 点赞，获评【Heygem.ai 之神奖】及 50 元现金大神🧧
+    内容获得 100+ 点赞，获评【Heygem.ai 之神奖】及 50 元现金大神🧧
 
     （2）特殊成就：
 
         月度MVP将解锁开源名人堂数字勋章（永久上链）
 
-3. 参与方式
+3.  参与方式
 
-     你的创意发送至至客服小姐姐，加好友备注“姓名+999”
+    你的创意发送至至客服小姐姐，加好友备注“姓名+999”
 
 <img src="./README_zh.assets/2025-03-20_14-38-00.jpg" width="50%">
-
 
 ## 共创优秀作品展
 
@@ -187,82 +185,6 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. 双击`HeyGem-x.x.x-setup.exe`即可安装
-
-## Ubuntu22.04 DeskTop 安装
-
-### 推荐配置
-
- - CPU：第13代英特尔酷睿 i5-13400F
- - 内存：32G及以上（必要）
- - 显卡：rtx-3090（确保有英伟达显卡，并正确安装显卡驱动）
- - 硬盘：空闲空间大于 100G
-
-### 安装 Docker
-
-> 先用`docker --version`检查是否安装了docker，如果安装了，则跳过以下步骤
-
-```bash
-sudo apt update
-sudo apt install docker.io
-sudo apt install docker-compose
-```
-
-### 安装显卡驱动
-
-1. 参考官方文档安装显卡驱动[https://www.nvidia.cn/drivers/lookup/](https://www.nvidia.cn/drivers/lookup/)
-
-    > 安装后执行`nvidia-smi`命令，如果显示显卡信息，则安装成功
-
-2. 安装 NVIDIA Container Toolkit
-
-    NVIDIA Container Toolkit 是 Docker 使用 NVIDIA GPU 的必要工具。安装步骤如下：
-    - 添加 NVIDIA 包仓库：
-      ```bash
-      distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
-        && curl -s -L https://nvidia.github.io/libnvidia-container/gpgkey | sudo apt-key add - \
-        && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
-      ```
-    - 更新包列表并安装工具包：
-      ```bash
-        sudo apt-get update
-        sudo apt-get install -y nvidia-container-toolkit
-      ```
-    - 配置 Docker 使用 NVIDIA 运行时：
-      ```bash
-        sudo nvidia-ctk runtime configure --runtime=docker
-      ```
-    - 重启 Docker 服务：
-      ```bash
-        sudo systemctl restart docker
-      ```
-
-### 安装服务端
-
-```bash
-cd /deploy
-docker-compose -f docker-compose-linux.yml up -d
-```
-
-> 与windows上拉镜像一样，如果下载太慢，需要指定国内镜像源方法是在`/etc/docker/daemon.json`文件中添加：
->
-> ```json
-> {
->   "registry-mirrors": [
->     "https://hub.fast360.xyz",
->     "https://hub.littlediary.cn",
->     "https://docker.kejilion.pro",
->     "https://docker.1panelproxy.com"
->   ]
-> }
-> ```
-> 上面四个镜像源，随着时间推移，可能会有变化，请自行搜索最新的镜像源
-
-### 客户端
-
-1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)的Linux版本
-2. 双击`HeyGem-x.x.x.AppImage`即可启动，无需安装
-
-  > 提醒：在Ubuntu系统中，如果您使用`root`用户进入桌面，直接双击`HeyGem-x.x.x.AppImage`可能运行不了，需要在命令行终端中执行`./HeyGem-x.x.x.AppImage --no-sandbox`,加上`--no-sandbox`参数即可。
 
 ## 开放 API
 
