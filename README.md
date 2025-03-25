@@ -315,3 +315,7 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 
 - ASR based on [fun-asr](https://github.com/modelscope/FunASR)
 - TTS based on [fish-speech-ziming](https://github.com/fishaudio/fish-speech)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/HeyGem.ai&type=Date)](https://www.star-history.com/#GuijiAI/HeyGem.ai&Date)

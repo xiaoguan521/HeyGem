@@ -319,3 +319,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
 - ASR 基于 [fun-asr](https://github.com/modelscope/FunASR)
 - TTS 基于 [fish-speech-ziming](https://github.com/fishaudio/fish-speech)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/HeyGem.ai&type=Date)](https://www.star-history.com/#GuijiAI/HeyGem.ai&Date)
