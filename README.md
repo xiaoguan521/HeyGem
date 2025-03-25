@@ -85,6 +85,9 @@ Since we open-sourced Heygem, global geeks have illuminated the digital avatar m
 
 [AI Digital Humans Are Free! GitHub's Hot Project Can Run on Your Computer](http://xhslink.com/a/8UT1kQ7vxjh8)
 
+[The Most Popular Free AI Digital Human, HeyGem V1.0.3, Latest Update, One-Click Integration Package! Super Strong Lip-Sync Effect, Speed Up, Supports Long Videos, Batch Generation, 8G Video Memory Available!](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
+
+
 ## Introduction
 
 <img src="README_zh.assets/image-20250304114114272.png">

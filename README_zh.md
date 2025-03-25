@@ -85,6 +85,8 @@
 
 [AI数字人免费啦！GitHub爆火项目电脑就能跑](http://xhslink.com/a/8UT1kQ7vxjh8)
 
+[最火爆免费AI数字人，HeyGem V1.0.3，最新更新，一键整合包！口型效果超强，速度飞起，支持长视频、批量生成，8G显存可用！](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
+
 ## 介绍
 
 <img src="README_zh.assets/image-20250304114114272.png">
