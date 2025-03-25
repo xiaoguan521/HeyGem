@@ -26,7 +26,6 @@ import ImageShotVideo from '@renderer/assets/images/create-model/image-shot.png'
 import { Client } from '@renderer/client'
 import { MessagePlugin } from 'tdesign-vue-next'
 
-
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 const uploadInfo = defineModel()
