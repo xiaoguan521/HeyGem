@@ -87,6 +87,7 @@ Since we open-sourced Heygem, global geeks have illuminated the digital avatar m
 
 [The Most Popular Free AI Digital Human, HeyGem V1.0.3, Latest Update, One-Click Integration Package! Super Strong Lip-Sync Effect, Speed Up, Supports Long Videos, Batch Generation, 8G Video Memory Available!](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
 
+[**HeyGem One-Click Package Windows Direct Run Without Docker Silicon-Based Open Source Digital Human**](https://www.bilibili.com/video/BV1ZgovYGE3u/)
 
 ## Introduction
 

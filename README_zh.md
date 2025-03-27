@@ -87,6 +87,8 @@
 
 [最火爆免费AI数字人，HeyGem V1.0.3，最新更新，一键整合包！口型效果超强，速度飞起，支持长视频、批量生成，8G显存可用！](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
 
+[【HeyGem】一键包 windows直接运行 无需docker 硅基开源数字人](https://www.bilibili.com/video/BV1ZgovYGE3u/)
+
 ## 介绍
 
 <img src="README_zh.assets/image-20250304114114272.png">
