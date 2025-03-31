@@ -41,7 +41,7 @@
 [**Android版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
 [**IOS版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
-<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87a.jpg" width="50%">
+<img src="./README_zh.assets/cb10263a14cc826e22c2be4bcae01a89.jpg" width="50%">
 
 ## 【开源共创·荣耀共享】
 
