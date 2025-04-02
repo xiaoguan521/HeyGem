@@ -9,6 +9,7 @@
 3. Fixed some known issues
    - #304
    - #292
+4. [Ubuntu22.04 Installation Documentation](#Ubuntu 22.04 Installation)
 
 ## Important Notice to Developer Partners
 
