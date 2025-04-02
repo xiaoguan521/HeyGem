@@ -41,7 +41,7 @@
 [**Android版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
 [**IOS版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
-<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87a.jpg" width="50%">
+<img src="./README_zh.assets/cb10263a14cc826e22c2be4bcae01a89.jpg" width="50%">
 
 
 ## 【开源共创·荣耀共享】
@@ -86,6 +86,10 @@
 [开源免费的数字人来了，不限次数，快速克隆](http://xhslink.com/a/tX3p5V5tajh8)
 
 [AI数字人免费啦！GitHub爆火项目电脑就能跑](http://xhslink.com/a/8UT1kQ7vxjh8)
+
+[最火爆免费AI数字人，HeyGem V1.0.3，最新更新，一键整合包！口型效果超强，速度飞起，支持长视频、批量生成，8G显存可用！](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
+
+[【HeyGem】一键包 windows直接运行 无需docker 硅基开源数字人](https://www.bilibili.com/video/BV1ZgovYGE3u/)
 
 ## 介绍
 
@@ -397,3 +401,7 @@ docker-compose -f docker-compose-linux.yml up -d
 
 - ASR 基于 [fun-asr](https://github.com/modelscope/FunASR)
 - TTS 基于 [fish-speech-ziming](https://github.com/fishaudio/fish-speech)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/HeyGem.ai&type=Date)](https://www.star-history.com/#GuijiAI/HeyGem.ai&Date)

@@ -41,7 +41,7 @@ We always adhere to the open source spirit, and the launch of the API service ai
 [**Android Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
 [**IOS Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
-<img src="./README_zh.assets/1CB5196D-C989-4577-8C57-DCBA3E0871B2-51277-000008CE6CF0B87B.jpg" width="50%">
+<img src="./README_zh.assets/cb10263a14cc826e22c2be4bcae01a89.jpg" width="50%">
 
 ## Open Source Co-Creation · Shared Glory
 
@@ -85,6 +85,10 @@ Since we open-sourced Heygem, global geeks have illuminated the digital avatar m
 [Open Source Free Digital Humans Are Here, Unlimited Times, Fast Cloning](http://xhslink.com/a/tX3p5V5tajh8)
 
 [AI Digital Humans Are Free! GitHub's Hot Project Can Run on Your Computer](http://xhslink.com/a/8UT1kQ7vxjh8)
+
+[The Most Popular Free AI Digital Human, HeyGem V1.0.3, Latest Update, One-Click Integration Package! Super Strong Lip-Sync Effect, Speed Up, Supports Long Videos, Batch Generation, 8G Video Memory Available!](https://www.bilibili.com/video/BV1SkoCYpEwh/?share_source=copy_web&vd_source=c38dcdb72a68f2a4e0b3c0f4f9a5a03c)
+
+[**HeyGem One-Click Package Windows Direct Run Without Docker Silicon-Based Open Source Digital Human**](https://www.bilibili.com/video/BV1ZgovYGE3u/)
 
 ## Introduction
 
@@ -334,3 +338,7 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 
 - ASR based on [fun-asr](https://github.com/modelscope/FunASR)
 - TTS based on [fish-speech-ziming](https://github.com/fishaudio/fish-speech)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/HeyGem.ai&type=Date)](https://www.star-history.com/#GuijiAI/HeyGem.ai&Date)
