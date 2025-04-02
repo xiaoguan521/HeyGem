@@ -1,12 +1,14 @@
 # Heygem - Open Source Alternative to Heygen [【切换中文】](./README_zh.md)
 
-## Version Update Notice
+## [New Ubuntu Version Notice]
 
-**The Lite version is officially released, you can download it [here](https://github.com/GuijiAI/HeyGem.ai/releases/tag/v1.0.3-Lite). If you want to experience the standard version (original version), you can click [here](https://github.com/GuijiAI/HeyGem.ai/releases/tag/v1.0.3) to download**
+**Ubuntu Version Officially Released**
 
-1. The Lite version can reduce two services heygem-tts / heygem-asr, reducing the installation size from 70GB to 13.5GB
-2. The Lite version customizes avatars and video generation faster
-3. The Lite version does not have text-to-video functionality, it can only generate videos by uploading audio
+1. Adaptation and verification work for Ubuntu 22.04 Desktop version (kernel 6.8.0-52-generic) has been completed. Compatibility testing for other Linux versions has not yet been conducted.
+2. Added internationalization (English) for the client program interface.
+3. Fixed some known issues
+   - #304
+   - #292
 
 ## Important Notice to Developer Partners
 

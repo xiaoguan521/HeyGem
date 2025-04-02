@@ -1,12 +1,14 @@
 # Heygem - Heygen的开源平替产品 [【Switch to English】](./README.md)
 
-## 【新增Lite版本通知】
+## 【新增Ubuntu版本通知】
 
-**Lite版本正式发布，可以前往[这里](https://github.com/GuijiAI/HeyGem.ai/releases/tag/v1.0.3-Lite)下载，想体验标准版本（原版本），可以点击[这里](https://github.com/GuijiAI/HeyGem.ai/releases/tag/v1.0.3)下载**
+**Ubuntu版本正式发布**
 
-1. Lite 版可以减少两个服务 heygem-tts / heygem-asr，安装体积从70G减小到13.5G
-2. Lite 版订制形象和视频生成都更快
-3. Lite 版没有文字生成视频功能，只能用上传音频的方式生成视频
+1. 目前已完成 Ubuntu 22.04 Desktop 版本（内核 6.8.0-52-generic）的适配验证工作。其他 Linux 版本暂未进行兼容性测试。
+2. 补充客户端程序界面国际化（英文）。
+3. 修复一些已知问题
+   - #304
+   - #292
 
 ## 【致开发者伙伴的重要通知】
 
