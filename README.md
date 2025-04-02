@@ -9,7 +9,7 @@
 3. Fixed some known issues
    - #304
    - #292
-4. [Ubuntu22.04 Installation Documentation](#Ubuntu 22.04 Installation)
+4. [Ubuntu22.04 Installation Documentation](https://github.com/GuijiAI/HeyGem.ai?tab=readme-ov-file#ubuntu-2204-installation)
 
 ## Important Notice to Developer Partners
 

@@ -9,7 +9,7 @@
 3. 修复一些已知问题
    - #304
    - #292
-4. [Ubuntu22.04 安装文档](#Ubuntu22.04 安装)
+4. [Ubuntu22.04 安装文档](https://github.com/GuijiAI/HeyGem.ai/blob/main/README_zh.md#ubuntu2204-%E5%AE%89%E8%A3%85)
 
 ## 【致开发者伙伴的重要通知】
 
