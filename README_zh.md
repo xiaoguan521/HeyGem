@@ -1,4 +1,12 @@
 # Heygem - Heygen的开源平替产品 [【Switch to English】](./README.md)
+## 【公告】
+Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需复杂部署，即使是小白用户也能轻松上手直接使用。
+
+使用指南如下：
+
+第一步：前往https://guiji.cn/开放平台，领取免费数字人克隆权益（领取地址：https://app.guiji.cn/platform ）；
+
+第二步：移步至 Coze 平台，尽情体验硅基智能数字人智能体，生成口播视频（体验地址：https://www.coze.cn/store/agent/7488696243959431206 ）；还在等什么？快来一键生成独具特色的数字人口播视频吧！
 
 ## 【新增Ubuntu版本通知】
 

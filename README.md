@@ -1,5 +1,14 @@
 # Heygem - Open Source Alternative to Heygen [【切换中文】](./README_zh.md)
 
+## [Notice]
+Heygem digital human clone agents and plugins have been successfully launched on the Coze platform. No complex deployment is required, even novice users can easily get started and use it directly.
+
+The usage guide is as follows:
+
+Step 1: Go to https://guiji.cn/open-platform to claim free digital human clone rights (claim address: https://app.guiji.cn/platform);
+
+Step 2: Move to the Coze platform and fully experience the silicon-based intelligent digital human agent to generate broadcast videos (experience address: https://www.coze.cn/store/agent/7488696243959431206); What are you waiting for? Come and generate unique digital human broadcast videos with one click!
+
 ## [New Ubuntu Version Notice]
 
 **Ubuntu Version Officially Released**
