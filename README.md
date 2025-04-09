@@ -3,7 +3,7 @@
 ## Announcement
 Heygem digital human cloning intelligent agent and plugins have been successfully launched on the Coze platform. No complex deployment is required, even novice users can easily get started and use it directly.
 
-Click here to experience the Coze store👉[Silicon-based Intelligent Digital Human Cloning](https://www.coze.cn/store/agent/7488696243959431206?bid=6ftfk9dtg0g12)
+Click here to instantly access the Coze store experience👉[Silicon-based Intelligent Digital Human Cloning Agent](https://www.coze.cn/store/agent/7488696243959431206?bid=6ftfk9dtg0g12) | [Silicon-based Intelligent Digital Human Cloning Plugin](https://www.coze.cn/store/plugin/7488926246634782746)
 
 Scan the code to watch the operation video
 
