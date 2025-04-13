@@ -185,7 +185,7 @@ Installation using Docker, docker-compose as follows:
 1. The `docker-compose.yml` file is in the `/deploy` directory.
 2. Execute `docker-compose up -d` in the `/deploy` directory, <u>if you want to use the lite version, execute `docker-compose -f docker-compose-lite.yml up -d`</u>
 3. Wait patiently (about half an hour, speed depends on network), download will consume about 70GB of traffic, make sure to use WiFi
-4. When you see three services in Docker, it indicates success
+4. When you see three services in Docker, it indicates success (the lite version has only one service `heygem-gen-video`)
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 

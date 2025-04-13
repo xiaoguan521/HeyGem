@@ -186,7 +186,7 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 1. `docker-compose.yml`文件在`/deploy`目录下。
 2. 在`/deploy`目录执行`docker-compose up -d`，<u>如果您想使用lite版本，请执行`docker-compose -f docker-compose-lite.yml up -d`</u>
 3. 耐心等待一段时间（半小时左右，速度取决于网速），下载会消耗70G左右流量，注意连WIFI
-4. 看到Dokcer 中出现三个服务，表示成功了
+4. 看到Dokcer 中出现三个服务，表示成功了（lite版本只有一个服务`heygem-gen-video`）
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
