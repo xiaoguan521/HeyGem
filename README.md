@@ -1,14 +1,5 @@
 # Heygem - Open Source Alternative to Heygen [【切换中文】](./README_zh.md)
 
-## Announcement
-Heygem digital human cloning intelligent agent and plugins have been successfully launched on the Coze platform. No complex deployment is required, even novice users can easily get started and use it directly.
-
-Click here to instantly access the Coze store experience👉[Silicon-based Intelligent Digital Human Cloning Agent](https://www.coze.cn/store/agent/7488696243959431206?bid=6ftfk9dtg0g12) | [Silicon-based Intelligent Digital Human Cloning Plugin](https://www.coze.cn/store/plugin/7488926246634782746)
-
-Scan the code to watch the operation video
-
-<img src="./README_zh.assets/coze-video.png" width="50%">
-
 ## [New Ubuntu Version Notice]
 
 **Ubuntu Version Officially Released**
@@ -53,34 +44,35 @@ We always adhere to the open source spirit, and the launch of the API service ai
 [**Android Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
 [**IOS Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
 
-<img src="./README_zh.assets/cb10263a14cc826e22c2be4bcae01a89.jpg" width="50%">
+[**HeyGem Goes Open-Source - Your Free Unlimited Digital Human Tool Just Dropped !**](https://www.youtube.com/watch?v=IhY0s8mE9ao)
+
+[**Join the official Discord developer community**](https://discord.gg/k6JZ33zd)
 
 ## Open Source Co-Creation · Shared Glory
 
-Since we open-sourced Heygem, global geeks have illuminated the digital avatar matrix in the code universe, with each commit reconstructing the future! But joy is better shared than enjoyed alone—now we invite all experts to join the "Open Source Co-Creation Plan," empowering everyone with AI creativity and propelling the Chinese AI fleet towards the stars!
+Since opensourcing Heygem, global tech enthusiasts have illuminated a digital avatar matrix in the code universe—every commit is reshaping the future!
 
-1. Co-Creation Content Direction
+But joy is best when shared—we now invite all experts to join our
 
-    Share high-quality videos or articles on Heygem deployment tutorials, optimization guides, and practical cases (Bilibili, Douyin, Xiaohongshu, WeChat Official Accounts, Zhihu, etc.)
+Open Source CoCreation Program and empower everyone with AI innovation!
 
-2. Open Source Co-Creation Special Reward Pool (Real Cash Rewards!)
+1. CoCreation Content Directions  Share highquality videos or articles about Heygem deployment tutorials, optimization guides, practical use cases, etc., on platforms like Facebook, Twitter, YouTube, or TikTok.
 
-    (1) Basic Rewards
+2. Exclusive Rewards for Contributors (Real cash incentives!)
 
-       Content receiving 20-100 likes will be awarded the [Heygem.ai Master Award] and a 20 RMB cash red envelope.
+    (1) Base Rewards
 
-       Content receiving 100+ likes will be awarded the [Heygem.ai God Award] and a 50 RMB cash red envelope.
+      Content with 20100 likes: Earn the "Heygem.ai Master Award" + $3 cash reward
+
+      Content with 100+ likes: Earn the "Heygem.ai Deity Award" + $6 cash reward
 
     (2) Special Achievements:
 
-        The monthly MVP will unlock the Open Source Hall of Fame digital badge (permanently on-chain).
+      Monthly MVP: Unlock a Hall of Fame Digital Badge (permanently blockchainverified).
 
-3. Participation Method
+3. How to Participate  Submit your creative work to our Discord community and contact admins to claim rewards.
 
-     Send your creativity to the customer service lady, add a friend with the note "Name+999".
-
-<img src="./README_zh.assets/2025-03-20_14-38-00.jpg" width="50%">
-
+[**Click here to join the Discord developer community**](https://discord.gg/k6JZ33zd)
 
 ## Outstanding Co-Creation Works Exhibition
 
