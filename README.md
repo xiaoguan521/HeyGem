@@ -96,7 +96,7 @@ Open Source CoCreation Program and empower everyone with AI innovation!
 
 ## Introduction
 
-<img src="README_zh.assets/image-20250304114114272.png">
+<img src="./README.assets/PixPin_2025-04-16_16-23-23.jpg">
 
 Heygem is a fully offline video synthesis tool designed for Windows systems that can precisely clone your appearance and voice, digitalizing your image. You can create videos by driving virtual avatars through text and voice. No internet connection is required, protecting your privacy while enjoying convenient and efficient digital experiences.
 
@@ -320,13 +320,13 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 
    - How to get client logs:
 
-     ![image-20250308205954494](./doc/常见问题.assets/image-20250308205954494.png)
+     ![image-20250308205954494](./README.assets/PixPin_2025-04-16_16-19-23.jpg)
 
    - Server logs:
 
      Find the key location, or click on our three Docker services, and "Copy" as shown below.
 
-     ![image-20250308215812201](./doc/常见问题.assets/image-20250308215812201.png)
+     ![image-20250308215812201](./doc/常见问题.assets/image-20250308215812201.jpg)
 
 ## Contact Us
 

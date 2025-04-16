@@ -396,7 +396,7 @@ docker-compose -f docker-compose-linux.yml up -d
 
      找到关键位置，或点开我们的三个Docker服务，如下图操作“复制”。
 
-     ![image-20250308215812201](./doc/常见问题.assets/image-20250308215812201.png)
+     ![image-20250308215812201](./doc/常见问题.assets/image-20250308215812201.jpg)
 
 ## 联系我们
 
