@@ -1,12 +1,13 @@
-# Heygem - Heygen的开源平替产品 [【Switch to English】](./README.md)
-## 【公告】
-Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需复杂部署，即使是小白用户也能轻松上手直接使用。
+# Heygem - Heygen数字人的开源平替产品 [【Switch to English】](./README.md)
+## 【项目介绍】
+Heygem数字人是由硅基智能发布的免费开源项目，支持本地部署/API调用。
 
-戳这里秒达Coze商店体验👉[硅基智能数字人克隆智能体](https://www.coze.cn/store/agent/7488696243959431206?bid=6ftfk9dtg0g12) | [硅基智能数字人克隆插件](https://www.coze.cn/store/plugin/7488926246634782746)
+仅需提交一段10秒左右的视频，即可快速完成数字人形象和声音克隆，输入文案或上传音频即可驱动数字人口型，自动生成口播播报视频。
 
-扫码观看操作视频
+## 【官方网站】
+登录网站体验更多数字人能力： https://duix.com/
 
-<img src="./README_zh.assets/coze-video.png" width="50%">
+技术交流 & 商务合作联系邮箱： james@duix.com
 
 ## 【新增Ubuntu版本通知】
 
@@ -19,7 +20,7 @@ Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需�
    - #292
 4. [Ubuntu22.04 安装文档](https://github.com/GuijiAI/HeyGem.ai/blob/main/README_zh.md#ubuntu2204-%E5%AE%89%E8%A3%85)
 
-## 【致开发者伙伴的重要通知】
+## 【致开发者伙伴】
 
 **亲爱的Heygem开源社区成员：**
 
@@ -38,21 +39,22 @@ Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需�
 | 商用授权 | 支持全球免费商用（用户量超过10万或年营收达1000万美元以上的企业需签署商业许可协议） | 可商用                                                                    |
 | 迭代速度 | 更新慢，Bug修复依赖社区                                                            | 最新模型/算法优先适用，问题修复快                                         |
 
-我们始终秉持开源初心，API服务的推出旨在为不同需求的开发者提供更完整的解决方案矩阵。无论您选择哪种方式，都可随时通过James@toolwiz.com获取技术支持文档。期待与各位共同推动数字人技术的普惠发展！
+我们始终秉持开源初心，API服务的推出旨在为不同需求的开发者提供更完整的解决方案矩阵。无论您选择哪种方式，都可随时通过james@duix.com获取技术支持文档。期待与各位共同推动数字人技术的普惠发展！
 
-**硅基智能开发者团队**
-
-<a href="https://mp.weixin.qq.com/s/vKiBR85E7JyRkr6CxLCppA?mpshare=1&scene=1&srcid=0319sszkopZO6870sGsU0TFc&sharer_shareinfo=cac5ec3bfa62ed558552c7c022821613&sharer_shareinfo_first=cac5ec3bfa62ed558552c7c022821613&from=industrynews#rd" target="_blank">从零开始，手把手教你打造专属HeyGem 开源AI数字人！</a>
-
-[**极速克隆API**](https://app.guiji.cn/platform) | [**API文档中心**](https://guiji.cn/digital-docs/introduce/)
-
-[**实时交互SDK**](https://app.guiji.cn/platform) | [**SDK文档中心**](https://guiji.cn/duix-light-document/introduce/)
-
-[**本地实时交互（realtime）duix.ai 开源地址**](https://github.com/GuijiAI/duix.ai) |
-[**Android版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
-[**IOS版本**](https://github.com/GuijiAI/duix.ai/blob/main/duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)
+## 【HeyGem数字人技术交流】
+扫码加入技术交流群
 
 <img src="./README_zh.assets/cb10263a14cc826e22c2be4bcae01a89.jpg" width="50%">
+
+## 【上线Coze平台】
+
+Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需复杂部署，即使是小白用户也能轻松上手直接使用。
+
+戳这里直达Coze商店体验👉[硅基智能数字人克隆智能体](https://www.coze.cn/store/agent/7488696243959431206?bid=6ftfk9dtg0g12) | [硅基智能数字人克隆插件](https://www.coze.cn/store/plugin/7488926246634782746)
+
+扫码观看操作视频
+
+<img src="./README_zh.assets/coze-video.png" width="50%">
 
 
 ## 【开源共创·荣耀共享】
@@ -102,7 +104,7 @@ Heygem 数字人克隆智能体和插件已成功上线至Coze 平台 ，无需�
 
 [【HeyGem】一键包 windows直接运行 无需docker 硅基开源数字人](https://www.bilibili.com/video/BV1ZgovYGE3u/)
 
-## 介绍
+## 【部署流程】
 
 <img src="README_zh.assets/image-20250304114114272.png">
 
@@ -198,15 +200,6 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
-### nvidia 50系列显卡 服务端部署方案
-
-> 针对50系列显卡（经测试30,40系列cuda12.8用户也可以采用这个方案）
-> 使用了torch官方的预览版本
-```bash
-cd /deploy
-docker-compose -f docker-compose-5090.yml up -d
-```
-
 ### 客户端
 
 1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
@@ -280,7 +273,6 @@ docker-compose -f docker-compose-linux.yml up -d
 > }
 > ```
 > 上面四个镜像源，随着时间推移，可能会有变化，请自行搜索最新的镜像源
-
 
 ### 客户端
 
@@ -371,7 +363,10 @@ docker-compose -f docker-compose-linux.yml up -d
 
 ## 常见问题
 
-[常见问题](./doc/常见问题.md)
+- [常见问题](./doc/常见问题.md)
+
+- [HeyGem 开源数字人常见问题及解决办法](https://jexopm4t2a.feishu.cn/wiki/EjRPwux9DiNUtakOd1BcLQWEn3f))
+
 
 ## 提问前自查步骤
 
@@ -411,7 +406,7 @@ docker-compose -f docker-compose-linux.yml up -d
 ## 联系我们
 
 ```
-  James@toolwiz.com
+技术交流 & 商务合作联系邮箱： james@duix.com
 ```
 
 ## 协议
