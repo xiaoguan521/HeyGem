@@ -1,5 +1,15 @@
 # Heygem - Open Source Alternative to Heygen [【切换中文】](./README_zh.md)
 
+## Project Introduction
+HeyGem Digital Human is a free and open-source project released by Silicon Minds, supporting local deployment and API calls.
+
+With just a 10-second video submission, you can quickly clone a digital human's appearance and voice. Simply input text or upload audio to drive the digital human's lip movements and automatically generate a video with spoken content.
+
+## Official Website
+Visit our website to explore more digital human capabilities: https://duix.com/
+
+For technical discussions and business collaborations, please contact us at: james@duix.com
+
 ## [Nvidia 50 Series GPU Version Notice]
 
 1. Tested and verified on 5090 GPU
@@ -341,7 +351,7 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 ## Contact Us
 
 ```
-  James@toolwiz.com
+james@duix.com
 ```
 
 ## License
