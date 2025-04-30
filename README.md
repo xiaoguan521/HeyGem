@@ -3,7 +3,7 @@
 ## [Nvidia 50 Series GPU Version Notice]
 
 1. Tested and verified on 5090 GPU
-2. For installation instructions, see <a href="#nvidia-50-series-gpu-server-deployment-solution">Nvidia 50 Series GPU Server Deployment Solution</a>
+2. For installation instructions, see <a href="#Server-Deployment-Solution-for-NVIDIA-50-Series-Graphics-Cards">Server Deployment Solution for NVIDIA 50 Series Graphics Cards</a>
 
 ## [New Ubuntu Version Notice]
 
