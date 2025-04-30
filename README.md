@@ -190,6 +190,11 @@ Installation using Docker, docker-compose as follows:
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
+### Server Deployment Solution for NVIDIA 50 Series Graphics Cards
+
+> For 50 series graphics cards (tested and also works for 30/40 series with CUDA 12.8)
+> Uses the official preview version of PyTorch
+
 ### Client
 
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)

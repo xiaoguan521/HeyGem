@@ -198,6 +198,15 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 
+### nvidia 50系列显卡 服务端部署方案
+
+> 针对50系列显卡（经测试30,40系列cuda12.8用户也可以采用这个方案）
+> 使用了torch官方的预览版本
+```bash
+cd /deploy
+docker-compose -f docker-compose-5090.yml up -d
+```
+
 ### 客户端
 
 1. 直接下载[官方构建的安装包](https://github.com/GuijiAI/HeyGem.ai/releases)
@@ -271,6 +280,7 @@ docker-compose -f docker-compose-linux.yml up -d
 > }
 > ```
 > 上面四个镜像源，随着时间推移，可能会有变化，请自行搜索最新的镜像源
+
 
 ### 客户端
 
