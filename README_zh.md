@@ -9,6 +9,11 @@ Heygem数字人是由硅基智能发布的免费开源项目，支持本地部�
 
 技术交流 & 商务合作联系邮箱： james@duix.com
 
+## 【Nvidia 50系列显卡版本通知】
+
+1. 基于5090显卡测试通过
+2. 安装方法见<a href="#nvidia 50系列显卡 服务端部署方案">nvidia 50系列显卡 服务端部署方案</a>
+
 ## 【新增Ubuntu版本通知】
 
 **Ubuntu版本正式发布**
@@ -199,6 +204,15 @@ Heygem是一款专为Windows系统设计的全离线视频合成工具，它能�
 4. 看到Dokcer 中出现三个服务，表示成功了（lite版本只有一个服务`heygem-gen-video`）
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
+
+### Nvidia 50系列显卡服务端部署方案
+
+> 针对50系列显卡（经测试30,40系列cuda12.8用户也可以采用这个方案）
+> 使用了torch官方的预览版本
+```bash
+cd /deploy
+docker-compose -f docker-compose-5090.yml up -d
+```
 
 ### 客户端
 

@@ -1,5 +1,10 @@
 # Heygem - Open Source Alternative to Heygen [【切换中文】](./README_zh.md)
 
+## [Nvidia 50 Series GPU Version Notice]
+
+1. Tested and verified on 5090 GPU
+2. For installation instructions, see <a href="#nvidia-50-series-gpu-server-deployment-solution">Nvidia 50 Series GPU Server Deployment Solution</a>
+
 ## [New Ubuntu Version Notice]
 
 **Ubuntu Version Officially Released**
