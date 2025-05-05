@@ -6,7 +6,7 @@ HeyGem Digital Human is a free and open-source project developed by Silicon Inte
 By simply submitting a 10-second video clip, users can accurately replicate a digital human's visual appearance and vocal characteristics. The solution allows text input or audio uploads to synchronize lip movements with speech, automatically generating lifelike videos with synthesized verbal content.
 
 ## Official Website
-Visit our website to explore more digital human capabilities: https://duix.com/
+Visit our website to explore more digital human capabilities: https://duix.com
 
 For technical discussions and business collaborations, please contact us at: james@duix.com
 
@@ -45,7 +45,7 @@ We sincerely thank you for your enthusiastic attention and active participation 
 | Commercial Authorization | Supports global free commercial use (enterprises with more than 100,000 users or annual revenue exceeding 10 million USD need to sign a commercial license agreement) | Commercial use allowed                                                                                                                     |
 | Iteration Speed          | Slow updates, bug fixes depend on the community                                                                                                                       | Latest models/algorithms are prioritized, fast problem resolution                                                                          |
 
-We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through  duix.com
+We always adhere to the open source spirit, and the launch of the API service aims to provide a more complete solution matrix for developers with different needs. No matter which method you choose, you can always obtain technical support documents through https://duix.com
 
 We look forward to working with you to promote the inclusive development of digital human technology!
 
