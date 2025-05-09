@@ -53,9 +53,9 @@ We look forward to working with you to promote the inclusive development of digi
 
 <a href="https://mp.weixin.qq.com/s/vKiBR85E7JyRkr6CxLCppA?mpshare=1&scene=1&srcid=0319sszkopZO6870sGsU0TFc&sharer_shareinfo=cac5ec3bfa62ed558552c7c022821613&sharer_shareinfo_first=cac5ec3bfa62ed558552c7c022821613&from=industrynews#rd" target="_blank">From scratch, hand-in-hand to teach you how to create your own HeyGem open source AI digital human!</a>
 
-[**Rapid Clone API**](https://app.guiji.cn/platform) | [**API Documentation Center**](https://guiji.cn/digital-docs/introduce/)
+[**Rapid Clone API Documentation Center**](https://docs.duix.com/api-reference/api/Introduction)
 
-[**Real-time Interaction SDK**](https://app.guiji.cn/platform) | [**SDK Documentation Center**](https://guiji.cn/duix-light-document/introduce/)
+[**Real-time Interaction SDK Documentation Center**](https://docs.duix.com/api-reference/api/Introduction) 
 
 [**Local Real-time Interaction (realtime) duix.ai Open Source Address**](https://github.com/GuijiAI/duix.ai) |
 [**Android Version**](https://github.com/GuijiAI/duix.ai/blob/main/duix-android/dh_aigc_android/README.md) |
