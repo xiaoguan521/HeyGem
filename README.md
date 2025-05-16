@@ -72,7 +72,7 @@ HeyGem support two deployment modes：Windows / Ubuntu 22.04 Installation
 
 - Currently supports Windows 10 19042.1526 or higher
 
-**Hardware** **Requirements****：**
+**Hardware Requirements：**
 
 - Must have D Drive: Mainly used for storing digital human and project data
   - Free space requirement: More than 30GB
@@ -145,11 +145,11 @@ For 50 series graphics cards (tested and also works for 30/40 series with CUDA 1
 
 ### Mode 2：Ubuntu 22.04 Installation
 
-**System Requirements****：**
+**System Requirements：**
 
 We have conducted a complete test on **Ubuntu 22.04**. However, theoretically, it supports desktop Linux distributions.
 
-**Hardware** **Requirements****：**
+**Hardware Requirements：**
 
 - Recommended Configuration
 - CPU: 13th Generation Intel Core i5 - 13400F
@@ -235,11 +235,11 @@ For specific code, refer to:
 1. Separate video into silent video + audio
 2. Place audio in
 
-`D:\heygem_data\voice\data` is agreed with the `guiji2025/fish-speech-ziming` service, can be modified in docker-compose
+    `D:\heygem_data\voice\data` is agreed with the `guiji2025/fish-speech-ziming` service, can be modified in docker-compose
 
-1. Call the
+3. Call the
 
-Parameter example:Response example:**Record the response results as they will be needed for subsequent audio synthesis**
+    Parameter example:Response example:**Record the response results as they will be needed for subsequent audio synthesis**
 
 ### **Audio Synthesis**
 
@@ -356,15 +356,15 @@ All computing power for this project is local. The three services won't start wi
 Describe the reproduction steps in detail, with screenshots if possible.
 
 2. Provide Error Logs
-   - How to get client logs:
+    - How to get client logs:
 
-    ![img](README.assets/4.jpeg)
+      ![img](README.assets/4.jpeg)
 
-- Server logs:
+    - Server logs:
 
-  Find the key location, or click on our three Docker services, and "Copy" as shown below.
+      Find the key location, or click on our three Docker services, and "Copy" as shown below.
 
-  ![img](./README.assets/15.png)
+      ![img](./README.assets/15.png)
 
 ## 7. How to Interact in real time
 
