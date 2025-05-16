@@ -1,8 +1,11 @@
-<div style="text-align: center;">
+<div style="width: 100%; text-align: center;">
   <img src="README.assets/1.jpg" style="width: 220px; height: auto;"/>
 </div>
 
-<h1 style="text-align: center;">HeyGem - Open Source Alternative to Heygen</h1>
+<div style="width: 100%; text-align: center;">
+  <h1>HeyGem - Open Source Alternative to Heygen</h1>
+</div>
+
 
 
 # Table of Contents
