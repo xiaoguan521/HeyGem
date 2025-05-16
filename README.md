@@ -6,8 +6,6 @@
   <h1>HeyGem - Open Source Alternative to Heygen</h1>
 </div>
 
-
-
 # Table of Contents
 
 1. [What's HeyGem](#1-whats-heygem)
@@ -29,8 +27,6 @@
 **HeyGem** is a free and open-source AI avatar project developed by **Duix.com**.
 
 Seven years ago, a group of young pioneers chose an unconventional technical path, developing a method to train digital human models using real-person video data. Unlike traditional costly 3D digital human approaches, we leveraged AI-generated technology to create ultra-realistic digital humans, slashing production costs from hundreds of thousands of dollars to just $1,000. This innovation has empowered over 10,000 enterprises and generated over 500,000 personalized avatars for professionals across fields – educators, content creators, legal experts, medical practitioners, and entrepreneurs – dramatically enhancing their video production efficiency. However, our vision extends beyond commercial applications. We believe this transformative technology should be accessible to everyone. To democratize digital human creation, we've open-sourced our cloning technology and video production framework. Our commitment remains: breaking down technological barriers to make cutting-edge tools available to all. Now, anyone with a computer can freely craft their own AI Avatar and produce videos at zero cost – this is the essence of  **HeyGem**.
-
-
 
 ## 2. Introduction
 
@@ -70,7 +66,7 @@ HeyGem support two deployment modes：Windows / Ubuntu 22.04 Installation
 
 
 
-### **Mode 1：Windows** Installation
+### Mode 1：Windows Installation
 
 **System Requirements:**
 
@@ -84,7 +80,7 @@ HeyGem support two deployment modes：Windows / Ubuntu 22.04 Installation
   - Free space requirement: More than 100GB
   - If less than 100GB is available, after installing Docker, you can choose a different disk folder with more than 100GB of remaining space at the location shown below.
 
-![img](README.assets/7.png)
+    ![img](README.assets/7.png)
 
 - Recommended Configuration:
   - CPU: 13th Gen Intel Core i5-13400F
@@ -92,39 +88,39 @@ HeyGem support two deployment modes：Windows / Ubuntu 22.04 Installation
   - Graphics Card: RTX 4070
 - Ensure you have an NVIDIA graphics card with properly installed drivers
 
-NVIDIA driver download link: https://www.nvidia.cn/drivers/lookup/
+  > NVIDIA driver download link: https://www.nvidia.cn/drivers/lookup/
 
-![img](./README.assets/14.png)
+  ![img](./README.assets/14.png)
 
 
 #### **Installing Windows Docker**
 
 1. Use the command `wsl --list --verbose` to check if WSL is installed. If it shows as below, it's already installed and no further installation is needed.
 
-![img](README.assets/11.png)
+    ![img](README.assets/11.png)
 
 
 
-1. Update WSL using `wsl --update`.
+2. Update WSL using `wsl --update`.
 
-![img](README.assets/10.png)
+    ![img](README.assets/10.png)
 
-1. [Download Docker for Windows](https://www.docker.com/), choose the appropriate installation package based on your CPU architecture.
-2. When you see this interface, installation is successful.
+3. [Download Docker for Windows](https://www.docker.com/), choose the appropriate installation package based on your CPU architecture.
+4. When you see this interface, installation is successful.
 
-![img](README.assets/5.png)
+    ![img](README.assets/5.png)
 
-1. Run Docker
+5. Run Docker
 
-![img](README.assets/12.png)
+    ![img](README.assets/12.png)
 
-1. Accept the agreement and skip login on first run
+6. Accept the agreement and skip login on first run
 
-![img](README.assets/8.png)
+    ![img](README.assets/8.png)
 
-![img](README.assets/13.png)
+    ![img](README.assets/13.png)
 
-![img](README.assets/3.png)
+    ![img](README.assets/3.png)
 
 
 #### **Installing the Server**
@@ -136,7 +132,7 @@ Installation using Docker, docker-compose as follows:
 3. Wait patiently (about half an hour, speed depends on network), download will consume about 70GB of traffic, make sure to use WiFi
 4. When you see three services in Docker, it indicates success (the lite version has only one service `heygem-gen-video`)
 
-![img](README.assets/6.png)
+    ![img](README.assets/6.png)
 
 #### **Server Deployment Solution for NVIDIA 50 Series Graphics Cards**
 
@@ -147,9 +143,7 @@ For 50 series graphics cards (tested and also works for 30/40 series with CUDA 1
 1. Directly download the [officially built installation package](https://github.com/GuijiAI/HeyGem.ai/releases)
 2. Double-click `HeyGem-x.x.x-setup.exe` to install
 
-
-
-### **Mode 2：**Ubuntu 22.04 Installation
+### Mode 2：Ubuntu 22.04 Installation
 
 **System Requirements****：**
 
@@ -275,23 +269,21 @@ Interface: `http://127.0.0.1:18180/v1/invoke`
 
 - Synthesis interface: `http://127.0.0.1:8383/easy/submit`
 
-```
-// Request parameters
-{
-  "audio_url": "{audioPath}", // Audio path
-  "video_url": "{videoPath}", // Video path
-  "code": "{uuid}", // Unique key
-  "chaofen": 0, // Fixed value
-  "watermark_switch": 0, // Fixed value
-  "pn": 1 // Fixed value
-}
-```
+  ```
+  // Request parameters
+  {
+    "audio_url": "{audioPath}", // Audio path
+    "video_url": "{videoPath}", // Video path
+    "code": "{uuid}", // Unique key
+    "chaofen": 0, // Fixed value
+    "watermark_switch": 0, // Fixed value
+    "pn": 1 // Fixed value
+  }
+  ```
 
 - Progress query: `http://127.0.0.1:8383/easy/query?code=${taskCode}`
 
 GET request, the parameter `taskCode` is the `code` from the synthesis interface input above
-
-
 
 ### **Important Notice to Developer Partners**
 
@@ -346,7 +338,7 @@ We also provide  APl at DUIX Platform: https://docs.duix.com/api-reference/api/I
 
 1. Check if all three services are in Running status
 
-![img](README.assets/9.png)
+    ![img](README.assets/9.png)
 
 2. Confirm that your machine has an NVIDIA graphics card and drivers are correctly installed.
 
@@ -366,13 +358,13 @@ Describe the reproduction steps in detail, with screenshots if possible.
 2. Provide Error Logs
    - How to get client logs:
 
-![img](README.assets/4.jpeg)
+    ![img](README.assets/4.jpeg)
 
 - Server logs:
 
-Find the key location, or click on our three Docker services, and "Copy" as shown below.
+  Find the key location, or click on our three Docker services, and "Copy" as shown below.
 
-![img](./README.assets/15.png)
+  ![img](./README.assets/15.png)
 
 ## 7. How to Interact in real time
 
