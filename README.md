@@ -244,7 +244,3 @@ See [LICENSE](https://github.com/GuijiAI/HeyGem.ai/blob/main/LICENSE) for more i
 - Big thanks to the open-source AI community
 
 ---
-
-## 11. Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/HeyGem.ai&type=Date)](https://star-history.com/#GuijiAI/HeyGem.ai&Date)
