@@ -203,7 +203,6 @@ Refer to:
 1. All Docker services are running.
 2. NVIDIA GPU + driver is installed.
 3. You are using the latest version.
-4. Check [GitHub Issues](https://github.com/GuijiAI/HeyGem.ai/issues)
 
 ### ❓ Bug Report Template
 
