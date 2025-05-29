@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="README.assets/1.png" width="220" />
-</p>
-
 <h1 align="center">HeyGem - Open Source Alternative to Heygen</h1>
 <p align="center"><strong>Created and maintained by Brandon Rezko</strong></p>
 
