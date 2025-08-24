@@ -19,7 +19,7 @@ log.transports.file.format = '{y}-{m}-{d} {h}:{i}:{s} [{level}] {text}'
 log.transports.console.format = '[{level}] {text}'
 
 // 设置日志文件大小上限（字节）
-log.transports.file.maxSize = 2 * 1024 * 1024 // 2M
+log.transports.file.maxSize = 2 * 1024 * 1024 // 2M 
 
 // 设置日志文件备份数量
 log.transports.file.maxFiles = 5
