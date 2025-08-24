@@ -1,5 +1,5 @@
 networks: 
-  ai_network:
+  ai_network: 
     driver: bridge
 
 services:
