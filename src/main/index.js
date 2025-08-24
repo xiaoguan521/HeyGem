@@ -1,7 +1,7 @@
 import { app, shell, BrowserWindow, ipcMain } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/logo-solid.png?asset'
+import icon from '../../resources/logo-solid.png?asset' 
 import { initDB } from './db/index.js'
 import { registerHandler } from './service/index.js'
 import { init as initInterval } from './interval/interval.js'
