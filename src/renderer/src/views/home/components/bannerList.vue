@@ -11,7 +11,7 @@
         <div class="text" :style="locale === 'en' ?  'font-size: 13px;' : ''">{{$t('common.banner0.buttonText') }}</div>
       </div>
     </div>
-    <div class="banner-right" @click="action.handleCreateModel">
+    <!-- <div class="banner-right" @click="action.handleCreateModel">
       <div class="title-box" :style="locale === 'zh' ? '' : 'padding: 12px 0px 0px 32px;'">
         <div class="h1">{{$t('common.banner1.buttonText') }}</div>
         <div class="text" :style="locale === 'zh' ? '' : ' width: 60%;'">{{$t('common.banner1.subTitle') }}</div>
@@ -20,7 +20,7 @@
           <img src="../../../assets/images/home/go.svg" />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup>
@@ -50,7 +50,7 @@ const action = {
   margin-bottom: 18px;
 
   .banner-left {
-    width: 65%;
+    width: 100%;
     border-radius: 8px;
     display: flex;
     height: 160px;
